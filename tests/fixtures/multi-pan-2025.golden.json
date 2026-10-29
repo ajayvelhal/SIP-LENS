@@ -1,0 +1,4770 @@
+{
+  "goldenVersion": 1,
+  "fixture": "multi-pan-2025.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-10"],
+  "edges": ["E63"],
+  "notes": "Two investor blocks and two PANs: parsed in full, MULTI_PAN info, investorCount 2.",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2025-03-31",
+      "statementPeriod": {
+        "from": "2020-01-01",
+        "to": "2025-03-31"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 2,
+      "funds": [
+        {
+          "id": "INF000S01FL9",
+          "isin": "INF000S01FL9",
+          "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "5702244573 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 1900.406,
+              "closingNav": 303.1351,
+              "closingValue": 576079.76,
+              "transactions": [
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-02-10",
+                  "description": "Systematic Investment (1)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 42.805,
+                  "nav": 116.8077,
+                  "unitBalance": 42.805,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-03-10",
+                  "description": "Systematic Investment (2)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 77.683,
+                  "nav": 64.3645,
+                  "unitBalance": 120.488,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-04-10",
+                  "description": "Systematic Investment (3)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 84.118,
+                  "nav": 59.4404,
+                  "unitBalance": 204.606,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-05-11",
+                  "description": "Systematic Investment (4)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 70.868,
+                  "nav": 70.5535,
+                  "unitBalance": 275.474,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-06-10",
+                  "description": "Systematic Investment (5)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 63.072,
+                  "nav": 79.2739,
+                  "unitBalance": 338.546,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-07-10",
+                  "description": "Systematic Investment (6)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 54.99,
+                  "nav": 90.921,
+                  "unitBalance": 393.536,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:6"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:5",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-08-10",
+                  "description": "Systematic Investment (7)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 45.745,
+                  "nav": 109.2969,
+                  "unitBalance": 439.281,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:8"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:8",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:7",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:9",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-09-10",
+                  "description": "Systematic Investment (8)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 47.481,
+                  "nav": 105.3009,
+                  "unitBalance": 486.762,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:10"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:10",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:9",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:11",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-10-12",
+                  "description": "Systematic Investment (9)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 38.888,
+                  "nav": 128.5689,
+                  "unitBalance": 525.65,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:12"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:12",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:11",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:13",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-11-10",
+                  "description": "Systematic Investment (10)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 33.234,
+                  "nav": 150.4387,
+                  "unitBalance": 558.884,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:14"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:14",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:13",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:15",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-12-10",
+                  "description": "Systematic Investment (11)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 29.6,
+                  "nav": 168.9131,
+                  "unitBalance": 588.484,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:16"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:16",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:15",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:17",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-01-11",
+                  "description": "Systematic Investment (12)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.364,
+                  "nav": 176.2707,
+                  "unitBalance": 616.848,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:18"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:18",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-01-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:17",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:19",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-02-10",
+                  "description": "Systematic Investment (13)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.96,
+                  "nav": 178.8187,
+                  "unitBalance": 644.808,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:20"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:20",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:19",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:21",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-03-10",
+                  "description": "Systematic Investment (14)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 26.459,
+                  "nav": 188.9636,
+                  "unitBalance": 671.267,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:22"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:22",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:21",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:23",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-04-12",
+                  "description": "Systematic Investment (15)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.148,
+                  "nav": 184.1669,
+                  "unitBalance": 698.415,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:24"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:24",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-04-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:23",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:25",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-05-10",
+                  "description": "Systematic Investment (16)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.584,
+                  "nav": 181.256,
+                  "unitBalance": 725.999,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:26"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:26",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:25",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:27",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-06-10",
+                  "description": "Systematic Investment (17)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.554,
+                  "nav": 181.4534,
+                  "unitBalance": 753.553,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:28"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:28",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:27",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:29",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-07-12",
+                  "description": "Systematic Investment (18)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.705,
+                  "nav": 174.1757,
+                  "unitBalance": 782.258,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:30"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:30",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-07-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:29",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:31",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-08-10",
+                  "description": "Systematic Investment (19)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.183,
+                  "nav": 183.9312,
+                  "unitBalance": 809.441,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:32"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:32",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:31",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:33",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-09-10",
+                  "description": "Systematic Investment (20)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.254,
+                  "nav": 183.4493,
+                  "unitBalance": 836.695,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:34"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:34",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:33",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:35",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-10-11",
+                  "description": "Systematic Investment (21)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.973,
+                  "nav": 178.7356,
+                  "unitBalance": 864.668,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:36"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:36",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-10-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:35",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:37",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-11-10",
+                  "description": "Systematic Investment (22)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.278,
+                  "nav": 176.8071,
+                  "unitBalance": 892.946,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:38"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:38",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:37",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:39",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-12-10",
+                  "description": "Systematic Investment (23)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.542,
+                  "nav": 175.1743,
+                  "unitBalance": 921.488,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:40"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:40",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2021-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:39",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:41",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-01-10",
+                  "description": "Systematic Investment (24)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.42,
+                  "nav": 175.9213,
+                  "unitBalance": 949.908,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:42"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:42",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:41",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:43",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-02-10",
+                  "description": "Systematic Investment (25)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 29.413,
+                  "nav": 169.9846,
+                  "unitBalance": 979.321,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:44"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:44",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:43",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:45",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-03-10",
+                  "description": "Systematic Investment (26)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 29.564,
+                  "nav": 169.1147,
+                  "unitBalance": 1008.885,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:46"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:46",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:45",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:47",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-04-11",
+                  "description": "Systematic Investment (27)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 30.353,
+                  "nav": 164.719,
+                  "unitBalance": 1039.238,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:48"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:48",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-04-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:47",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:49",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-05-10",
+                  "description": "Systematic Investment (28)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 31.421,
+                  "nav": 159.1223,
+                  "unitBalance": 1070.659,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:50"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:50",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:49",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:51",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-06-10",
+                  "description": "Systematic Investment (29)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 34.012,
+                  "nav": 146.9995,
+                  "unitBalance": 1104.671,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:52"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:52",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:51",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:53",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-07-11",
+                  "description": "Systematic Investment (30)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 32.338,
+                  "nav": 154.6086,
+                  "unitBalance": 1137.009,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:54"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:54",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-07-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:53",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:55",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-08-10",
+                  "description": "Systematic Investment (31)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 33.158,
+                  "nav": 150.7847,
+                  "unitBalance": 1170.167,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:56"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:56",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:55",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:57",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-09-12",
+                  "description": "Systematic Investment (32)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 32.882,
+                  "nav": 152.0524,
+                  "unitBalance": 1203.049,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:58"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:58",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-09-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:57",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:59",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-10-10",
+                  "description": "Systematic Investment (33)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 29.934,
+                  "nav": 167.0266,
+                  "unitBalance": 1232.983,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:60"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:60",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:59",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:61",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-11-10",
+                  "description": "Systematic Investment (34)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 29.151,
+                  "nav": 171.5139,
+                  "unitBalance": 1262.134,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:62"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:62",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:61",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:63",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-12-12",
+                  "description": "Systematic Investment (35)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 30.118,
+                  "nav": 166.0061,
+                  "unitBalance": 1292.252,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:64"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:64",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2022-12-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:63",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:65",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-01-10",
+                  "description": "Systematic Investment (36)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 28.735,
+                  "nav": 173.9975,
+                  "unitBalance": 1320.987,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:66"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:66",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:65",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:67",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-02-10",
+                  "description": "Systematic Investment (37)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 26.214,
+                  "nav": 190.726,
+                  "unitBalance": 1347.201,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:68"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:68",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:67",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:69",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-03-10",
+                  "description": "Systematic Investment (38)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.188,
+                  "nav": 183.8944,
+                  "unitBalance": 1374.389,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:70"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:70",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:69",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:71",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-04-10",
+                  "description": "Systematic Investment (39)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 27.579,
+                  "nav": 181.286,
+                  "unitBalance": 1401.968,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:72"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:72",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:71",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:73",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-05-10",
+                  "description": "Systematic Investment (40)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 25.577,
+                  "nav": 195.4751,
+                  "unitBalance": 1427.545,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:74"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:74",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:73",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:75",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-06-12",
+                  "description": "Systematic Investment (41)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 25.612,
+                  "nav": 195.2144,
+                  "unitBalance": 1453.157,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:76"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:76",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-06-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:75",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:77",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-07-10",
+                  "description": "Systematic Investment (42)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 25.097,
+                  "nav": 199.221,
+                  "unitBalance": 1478.254,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:78"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:78",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:77",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:79",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-08-10",
+                  "description": "Systematic Investment (43)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 24.473,
+                  "nav": 204.2935,
+                  "unitBalance": 1502.727,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:80"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:80",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:79",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:81",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-09-11",
+                  "description": "Systematic Investment (44)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 24.318,
+                  "nav": 205.5983,
+                  "unitBalance": 1527.045,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:82"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:82",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-09-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:81",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:83",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-10-10",
+                  "description": "Systematic Investment (45)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 23.316,
+                  "nav": 214.4348,
+                  "unitBalance": 1550.361,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:84"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:84",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:83",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:85",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-11-10",
+                  "description": "Systematic Investment (46)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 25.647,
+                  "nav": 194.9478,
+                  "unitBalance": 1576.008,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:86"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:86",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:85",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:87",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-12-11",
+                  "description": "Systematic Investment (47)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 22.465,
+                  "nav": 222.5549,
+                  "unitBalance": 1598.473,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:88"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:88",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2023-12-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:87",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:89",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-01-10",
+                  "description": "Systematic Investment (48)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 22.337,
+                  "nav": 223.8326,
+                  "unitBalance": 1620.81,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:90"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:90",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:89",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:91",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-02-12",
+                  "description": "Systematic Investment (49)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 21.663,
+                  "nav": 230.8013,
+                  "unitBalance": 1642.473,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:92"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:92",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-02-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:91",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:93",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-03-11",
+                  "description": "Systematic Investment (50)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 22.379,
+                  "nav": 223.4088,
+                  "unitBalance": 1664.852,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:94"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:94",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-03-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:93",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:95",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-04-10",
+                  "description": "Systematic Investment (51)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 21.946,
+                  "nav": 227.8213,
+                  "unitBalance": 1686.798,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:96"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:96",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:95",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:97",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-05-10",
+                  "description": "Systematic Investment (52)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 21.22,
+                  "nav": 235.6171,
+                  "unitBalance": 1708.018,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:98"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:98",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:97",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:99",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-06-10",
+                  "description": "Systematic Investment (53)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 20.095,
+                  "nav": 248.8024,
+                  "unitBalance": 1728.113,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:100"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:100",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:99",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:101",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-07-10",
+                  "description": "Systematic Investment (54)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 20.36,
+                  "nav": 245.5652,
+                  "unitBalance": 1748.473,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:102"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:102",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:101",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:103",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-08-12",
+                  "description": "Systematic Investment (55)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 19.583,
+                  "nav": 255.3172,
+                  "unitBalance": 1768.056,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:104"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:104",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-08-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:103",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:105",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-09-10",
+                  "description": "Systematic Investment (56)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 20.35,
+                  "nav": 245.6891,
+                  "unitBalance": 1788.406,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:106"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:106",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:105",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:107",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-10-10",
+                  "description": "Systematic Investment (57)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 20.143,
+                  "nav": 248.2101,
+                  "unitBalance": 1808.549,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:108"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:108",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:107",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:109",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-11-11",
+                  "description": "Systematic Investment (58)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 19.794,
+                  "nav": 252.5852,
+                  "unitBalance": 1828.343,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:110"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:110",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-11-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:109",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:111",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-12-10",
+                  "description": "Systematic Investment (59)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 18.595,
+                  "nav": 268.8817,
+                  "unitBalance": 1846.938,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:112"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:112",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2024-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:111",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:113",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-01-10",
+                  "description": "Systematic Investment (60)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 18.534,
+                  "nav": 269.7612,
+                  "unitBalance": 1865.472,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:114"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:114",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:113",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:115",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-02-10",
+                  "description": "Systematic Investment (61)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 17.486,
+                  "nav": 285.9246,
+                  "unitBalance": 1882.958,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:116"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:116",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:115",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:117",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-03-10",
+                  "description": "Systematic Investment (62)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 17.448,
+                  "nav": 286.5543,
+                  "unitBalance": 1900.406,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01FL9:5702244573 / 0:118"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FL9:5702244573 / 0:118",
+                  "rta": "CAMS",
+                  "folioNumber": "5702244573 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01FL9",
+                  "date": "2025-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 2,
+                  "attachedTo": "INF000S01FL9:5702244573 / 0:117",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 1900.406,
+                "printedClosingUnits": 1900.406,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 1900.406,
+          "closingNav": 303.1351,
+          "closingValue": 576079.76,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01EL2",
+          "isin": "INF000S01EL2",
+          "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "9553036164 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 2488.629,
+              "closingNav": 176.0215,
+              "closingValue": 438052.21,
+              "transactions": [
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-02-10",
+                  "description": "Systematic Investment (1)",
+                  "kind": "sip",
+                  "amount": 4000,
+                  "units": 48.176,
+                  "nav": 83.0292,
+                  "unitBalance": 48.176,
+                  "page": 3,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-03-10",
+                  "description": "Systematic Investment (2)",
+                  "kind": "sip",
+                  "amount": 4000,
+                  "units": 89.716,
+                  "nav": 44.5852,
+                  "unitBalance": 137.892,
+                  "page": 3,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-04-10",
+                  "description": "Systematic Investment (3)",
+                  "kind": "sip",
+                  "amount": 4000,
+                  "units": 100.674,
+                  "nav": 39.7323,
+                  "unitBalance": 238.566,
+                  "page": 3,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-05-11",
+                  "description": "Systematic Investment (4)",
+                  "kind": "sip",
+                  "amount": 4000,
+                  "units": 86.965,
+                  "nav": 45.9953,
+                  "unitBalance": 325.531,
+                  "page": 3,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-06-10",
+                  "description": "Systematic Investment (5)",
+                  "kind": "sip",
+                  "amount": 4000,
+                  "units": 82.322,
+                  "nav": 48.5894,
+                  "unitBalance": 407.853,
+                  "page": 3,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-07-10",
+                  "description": "Systematic Investment (6)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 73.732,
+                  "nav": 54.2481,
+                  "unitBalance": 481.585,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:6"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:5",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-08-10",
+                  "description": "Systematic Investment (7)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 61.225,
+                  "nav": 65.33,
+                  "unitBalance": 542.81,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:8"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:8",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:7",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:9",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-09-10",
+                  "description": "Systematic Investment (8)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 63.533,
+                  "nav": 62.956,
+                  "unitBalance": 606.343,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:10"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:10",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:9",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:11",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-10-12",
+                  "description": "Systematic Investment (9)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 51.932,
+                  "nav": 77.0195,
+                  "unitBalance": 658.275,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:12"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:12",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:11",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:13",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-11-10",
+                  "description": "Systematic Investment (10)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 45.795,
+                  "nav": 87.3413,
+                  "unitBalance": 704.07,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:14"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:14",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:13",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:15",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-12-10",
+                  "description": "Systematic Investment (11)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 41.457,
+                  "nav": 96.4816,
+                  "unitBalance": 745.527,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:16"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:16",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:15",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:17",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-01-11",
+                  "description": "Systematic Investment (12)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.93,
+                  "nav": 100.1714,
+                  "unitBalance": 785.457,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:18"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:18",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-01-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:17",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:19",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-02-10",
+                  "description": "Systematic Investment (13)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.219,
+                  "nav": 101.9862,
+                  "unitBalance": 824.676,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:20"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:20",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:19",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:21",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-03-10",
+                  "description": "Systematic Investment (14)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 36.109,
+                  "nav": 110.7706,
+                  "unitBalance": 860.785,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:22"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:22",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:21",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:23",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-04-12",
+                  "description": "Systematic Investment (15)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 37.472,
+                  "nav": 106.7417,
+                  "unitBalance": 898.257,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:24"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:24",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-04-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:23",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:25",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-05-10",
+                  "description": "Systematic Investment (16)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 38.084,
+                  "nav": 105.0266,
+                  "unitBalance": 936.341,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:26"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:26",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:25",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:27",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-06-10",
+                  "description": "Systematic Investment (17)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 37.774,
+                  "nav": 105.8869,
+                  "unitBalance": 974.115,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:28"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:28",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:27",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:29",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-07-12",
+                  "description": "Systematic Investment (18)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 37.959,
+                  "nav": 105.3722,
+                  "unitBalance": 1012.074,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:30"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:30",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-07-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:29",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:31",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-08-10",
+                  "description": "Systematic Investment (19)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 37.908,
+                  "nav": 105.5125,
+                  "unitBalance": 1049.982,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:32"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:32",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:31",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:33",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-09-10",
+                  "description": "Systematic Investment (20)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 36.453,
+                  "nav": 109.7257,
+                  "unitBalance": 1086.435,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:34"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:34",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:33",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:35",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-10-11",
+                  "description": "Systematic Investment (21)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.045,
+                  "nav": 102.4417,
+                  "unitBalance": 1125.48,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:36"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:36",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-10-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:35",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:37",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-11-10",
+                  "description": "Systematic Investment (22)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.52,
+                  "nav": 101.2103,
+                  "unitBalance": 1165,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:38"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:38",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:37",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:39",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-12-10",
+                  "description": "Systematic Investment (23)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 40.32,
+                  "nav": 99.2011,
+                  "unitBalance": 1205.32,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:40"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:40",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2021-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:39",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:41",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-01-10",
+                  "description": "Systematic Investment (24)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.46,
+                  "nav": 101.3634,
+                  "unitBalance": 1244.78,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:42"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:42",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:41",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:43",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-02-10",
+                  "description": "Systematic Investment (25)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 40.128,
+                  "nav": 99.6769,
+                  "unitBalance": 1284.908,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:44"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:44",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:43",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:45",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-03-10",
+                  "description": "Systematic Investment (26)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 41.839,
+                  "nav": 95.6,
+                  "unitBalance": 1326.747,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:46"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:46",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:45",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:47",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-04-11",
+                  "description": "Systematic Investment (27)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 41.055,
+                  "nav": 97.4247,
+                  "unitBalance": 1367.802,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:48"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:48",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-04-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:47",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:49",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-05-10",
+                  "description": "Systematic Investment (28)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 44.314,
+                  "nav": 90.2607,
+                  "unitBalance": 1412.116,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:50"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:50",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:49",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:51",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-06-10",
+                  "description": "Systematic Investment (29)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 48.078,
+                  "nav": 83.1939,
+                  "unitBalance": 1460.194,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:52"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:52",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:51",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:53",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-07-11",
+                  "description": "Systematic Investment (30)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 43.918,
+                  "nav": 91.0752,
+                  "unitBalance": 1504.112,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:54"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:54",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-07-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:53",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:55",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-08-10",
+                  "description": "Systematic Investment (31)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 45.508,
+                  "nav": 87.8927,
+                  "unitBalance": 1549.62,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:56"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:56",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:55",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:57",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-09-12",
+                  "description": "Systematic Investment (32)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 45.625,
+                  "nav": 87.6664,
+                  "unitBalance": 1595.245,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:58"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:58",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-09-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:57",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:59",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-10-10",
+                  "description": "Systematic Investment (33)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 41.056,
+                  "nav": 97.4224,
+                  "unitBalance": 1636.301,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:60"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:60",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:59",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:61",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-11-10",
+                  "description": "Systematic Investment (34)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.951,
+                  "nav": 100.1187,
+                  "unitBalance": 1676.252,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:62"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:62",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:61",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:63",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-12-12",
+                  "description": "Systematic Investment (35)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 39.172,
+                  "nav": 102.1089,
+                  "unitBalance": 1715.424,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:64"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:64",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2022-12-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:63",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:65",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-01-10",
+                  "description": "Systematic Investment (36)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 36.885,
+                  "nav": 108.4407,
+                  "unitBalance": 1752.309,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:66"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:66",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 3,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:65",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:67",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-02-10",
+                  "description": "Systematic Investment (37)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 32.889,
+                  "nav": 121.6149,
+                  "unitBalance": 1785.198,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:68"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:68",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:67",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:69",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-03-10",
+                  "description": "Systematic Investment (38)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 33.024,
+                  "nav": 121.1189,
+                  "unitBalance": 1818.222,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:70"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:70",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:69",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:71",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-04-10",
+                  "description": "Systematic Investment (39)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 34.631,
+                  "nav": 115.4984,
+                  "unitBalance": 1852.853,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:72"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:72",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:71",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:73",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-05-10",
+                  "description": "Systematic Investment (40)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 32.406,
+                  "nav": 123.4287,
+                  "unitBalance": 1885.259,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:74"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:74",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:73",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:75",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-06-12",
+                  "description": "Systematic Investment (41)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 32.37,
+                  "nav": 123.5668,
+                  "unitBalance": 1917.629,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:76"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:76",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-06-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:75",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:77",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-07-10",
+                  "description": "Systematic Investment (42)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 32.665,
+                  "nav": 122.4496,
+                  "unitBalance": 1950.294,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:78"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:78",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:77",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:79",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-08-10",
+                  "description": "Systematic Investment (43)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 30.691,
+                  "nav": 130.3268,
+                  "unitBalance": 1980.985,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:80"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:80",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:79",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:81",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-09-11",
+                  "description": "Systematic Investment (44)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 30.05,
+                  "nav": 133.1051,
+                  "unitBalance": 2011.035,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:82"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:82",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-09-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:81",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:83",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-10-10",
+                  "description": "Systematic Investment (45)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 28.861,
+                  "nav": 138.5879,
+                  "unitBalance": 2039.896,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:84"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:84",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:83",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:85",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-11-10",
+                  "description": "Systematic Investment (46)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 32.024,
+                  "nav": 124.8994,
+                  "unitBalance": 2071.92,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:86"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:86",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:85",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:87",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-12-11",
+                  "description": "Systematic Investment (47)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 27.046,
+                  "nav": 147.8881,
+                  "unitBalance": 2098.966,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:88"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:88",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2023-12-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:87",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:89",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-01-10",
+                  "description": "Systematic Investment (48)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.575,
+                  "nav": 150.5094,
+                  "unitBalance": 2125.541,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:90"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:90",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:89",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:91",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-02-12",
+                  "description": "Systematic Investment (49)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 25.889,
+                  "nav": 154.4973,
+                  "unitBalance": 2151.43,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:92"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:92",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-02-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:91",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:93",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-03-11",
+                  "description": "Systematic Investment (50)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 28.176,
+                  "nav": 141.9564,
+                  "unitBalance": 2179.606,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:94"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:94",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-03-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:93",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:95",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-04-10",
+                  "description": "Systematic Investment (51)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.423,
+                  "nav": 151.3763,
+                  "unitBalance": 2206.029,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:96"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:96",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:95",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:97",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-05-10",
+                  "description": "Systematic Investment (52)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.837,
+                  "nav": 149.0381,
+                  "unitBalance": 2232.866,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:98"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:98",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:97",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:99",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-06-10",
+                  "description": "Systematic Investment (53)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 25.358,
+                  "nav": 157.7334,
+                  "unitBalance": 2258.224,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:100"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:100",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:99",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:101",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-07-10",
+                  "description": "Systematic Investment (54)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 25.611,
+                  "nav": 156.1755,
+                  "unitBalance": 2283.835,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:102"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:102",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:101",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:103",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-08-12",
+                  "description": "Systematic Investment (55)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 24.841,
+                  "nav": 161.0154,
+                  "unitBalance": 2308.676,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:104"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:104",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-08-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:103",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:105",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-09-10",
+                  "description": "Systematic Investment (56)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.58,
+                  "nav": 150.4788,
+                  "unitBalance": 2335.256,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:106"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:106",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:105",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:107",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-10-10",
+                  "description": "Systematic Investment (57)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.876,
+                  "nav": 148.8265,
+                  "unitBalance": 2362.132,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:108"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:108",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:107",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:109",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-11-11",
+                  "description": "Systematic Investment (58)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 27.289,
+                  "nav": 146.5715,
+                  "unitBalance": 2389.421,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:110"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:110",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-11-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:109",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:111",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-12-10",
+                  "description": "Systematic Investment (59)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 26.184,
+                  "nav": 152.7579,
+                  "unitBalance": 2415.605,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:112"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:112",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2024-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:111",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:113",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-01-10",
+                  "description": "Systematic Investment (60)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 25.661,
+                  "nav": 155.8685,
+                  "unitBalance": 2441.266,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:114"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:114",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:113",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:115",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-02-10",
+                  "description": "Systematic Investment (61)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 23.684,
+                  "nav": 168.8785,
+                  "unitBalance": 2464.95,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:116"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:116",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:115",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:117",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-03-10",
+                  "description": "Systematic Investment (62)",
+                  "kind": "sip",
+                  "amount": 3999.8,
+                  "units": 23.679,
+                  "nav": 168.9195,
+                  "unitBalance": 2488.629,
+                  "page": 4,
+                  "levies": [
+                    "INF000S01EL2:9553036164 / 0:118"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01EL2:9553036164 / 0:118",
+                  "rta": "CAMS",
+                  "folioNumber": "9553036164 / 0",
+                  "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+                  "isin": "INF000S01EL2",
+                  "date": "2025-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.2,
+                  "page": 4,
+                  "attachedTo": "INF000S01EL2:9553036164 / 0:117",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 2488.629,
+                "printedClosingUnits": 2488.629,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 2488.629,
+          "closingNav": 176.0215,
+          "closingValue": 438052.21,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 4,
+      "unitDecimals": 3
+    },
+    "warnings": [
+      {
+        "id": "MULTI_PAN:-:1:-",
+        "code": "MULTI_PAN",
+        "page": 1,
+        "severity": "info"
+      }
+    ],
+    "reconciliation": {
+      "INF000S01FL9": "ok",
+      "INF000S01EL2": "ok"
+    },
+    "stats": {
+      "pages": 4,
+      "rows": 285,
+      "transactions": 238,
+      "unclassified": 0,
+      "folios": 2,
+      "funds": 2,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2025-03-31",
+      "totalInvested": 558000,
+      "totalRedeemed": 0,
+      "valueAsOfStatementDate": 1014131.97,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 1014131.97,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 23.5025,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01FL9": {
+        "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+        "closingUnits": 1900.406,
+        "closingNav": 303.1351,
+        "closingValue": 576079.76,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 310000,
+        "redeemed": 0,
+        "netInvested": 310000,
+        "terminalValue": 576079.76,
+        "cashflowCount": 62,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2020-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-01-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-04-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-07-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-10-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-04-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-07-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-09-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-12-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-06-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-09-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-12-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-02-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-03-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-08-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-11-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 576079.76,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 24.4018,
+          "method": "newton"
+        }
+      },
+      "INF000S01EL2": {
+        "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+        "closingUnits": 2488.629,
+        "closingNav": 176.0215,
+        "closingValue": 438052.21,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 248000,
+        "redeemed": 0,
+        "netInvested": 248000,
+        "terminalValue": 438052.21,
+        "cashflowCount": 62,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2020-02-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-03-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-04-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-01-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-02-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-03-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-04-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-05-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-06-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-07-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-08-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-09-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-10-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-11-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-12-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-01-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-02-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-03-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-04-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-05-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-06-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-07-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-08-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-09-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-10-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-11-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-12-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-01-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-02-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-03-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-04-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-05-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-06-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-07-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-08-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-09-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-10-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-11-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-12-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-01-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-02-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-03-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-04-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-05-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-07-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-08-12",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-09-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-10-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-11-11",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-12-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-01-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-02-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-10",
+            "amount": -4000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 438052.21,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 22.3525,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01FL9",
+          "folioNumber": "5702244573 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2020-02-10",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2020-02-10",
+          "lastObserved": "2025-03-10",
+          "counts": {
+            "expected": 62,
+            "made": 62,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01EL2",
+          "folioNumber": "9553036164 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2020-02-10",
+              "amount": 4000
+            }
+          ],
+          "firstDate": "2020-02-10",
+          "lastObserved": "2025-03-10",
+          "counts": {
+            "expected": 62,
+            "made": 62,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

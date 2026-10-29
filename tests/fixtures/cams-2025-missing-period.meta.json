@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-missing-period.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 1,
+  "bytes": 4437,
+  "sha256": "9c9073eb243e47a7e91921137cdf6d114838a415d2e9e54264c9db816d826074",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

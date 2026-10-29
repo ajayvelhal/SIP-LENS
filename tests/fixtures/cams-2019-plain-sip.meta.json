@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2019-plain-sip.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 1,
+  "bytes": 4702,
+  "sha256": "639029643249a07ce9a6ee8f4d5ed02d9a902495838e1bd90c8d8adfbf997ee4",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-elss-tax.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 3,
+  "bytes": 8986,
+  "sha256": "d9cbf2388cae6eb7dba8ef51b1e937595a5f6538fba82be062aaaeb510c535fe",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

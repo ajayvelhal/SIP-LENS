@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "1970-01-01T00:00:00.000Z",
+  "source": {
+    "name": "SYNTHETIC fixture map (scripts/gen-fixtures.mjs)",
+    "url": "about:blank",
+    "termsUrl": "about:blank",
+    "licenceNote": "Synthetic data for tests only. Same schema as src/data/isinCategory.json.",
+    "structures": ["Open Ended"]
+  },
+  "categories": ["Equity","Debt","Hybrid","Other"],
+  "subCategories": [
+    "Aggressive Hybrid Fund",
+    "Arbitrage Fund",
+    "Balanced Advantage Fund",
+    "Conservative Hybrid Fund",
+    "Corporate Bond Fund",
+    "Credit Risk Fund",
+    "Dividend Yield Fund",
+    "ELSS",
+    "Flexi Cap Fund",
+    "FoF Domestic",
+    "FoF Overseas",
+    "Focused Fund",
+    "Gilt Fund",
+    "Index Funds",
+    "Large & Mid Cap Fund",
+    "Large Cap Fund",
+    "Liquid Fund",
+    "Mid Cap Fund",
+    "Multi Asset Allocation",
+    "Short Duration Fund",
+    "Small Cap Fund"
+  ],
+  "taxClasses": ["equity","debt","hybrid-other","unknown"],
+  "isinCount": 24,
+  "groups": [
+    {
+      "t": [0,10,1,0],
+      "isins": ["INF000S01IN9"]
+    },
+    {
+      "t": [0,11,0,0],
+      "isins": ["INF000S01FO3"]
+    },
+    {
+      "t": [0,13,0,0],
+      "isins": ["INF000S01IX8"]
+    },
+    {
+      "t": [0,14,0,0],
+      "isins": ["INF000S01RN0"]
+    },
+    {
+      "t": [0,15,0,0],
+      "isins": ["INF000S01LC6","INF000S01LD4"]
+    },
+    {
+      "t": [0,17,0,0],
+      "isins": ["INF000S01MD2"]
+    },
+    {
+      "t": [0,20,0,0],
+      "isins": ["INF000S01SM0"]
+    },
+    {
+      "t": [0,6,0,0],
+      "isins": ["INF000S01DY7"]
+    },
+    {
+      "t": [0,7,0,1],
+      "isins": ["INF000S01EL2"]
+    },
+    {
+      "t": [0,8,0,0],
+      "isins": ["INF000S01FL9","INF000S01FR6"]
+    },
+    {
+      "t": [1,12,1,0],
+      "isins": ["INF000S01GL7"]
+    },
+    {
+      "t": [1,16,1,0],
+      "isins": ["INF000S01LQ6"]
+    },
+    {
+      "t": [1,19,1,0],
+      "isins": ["INF000S01SD9"]
+    },
+    {
+      "t": [1,4,1,0],
+      "isins": ["INF000S01CB7"]
+    },
+    {
+      "t": [1,5,1,0],
+      "isins": ["INF000S01CR3","INF000S01CS1"]
+    },
+    {
+      "t": [2,0,0,0],
+      "isins": ["INF000S01AG0"]
+    },
+    {
+      "t": [2,1,0,0],
+      "isins": ["INF000S01AR7"]
+    },
+    {
+      "t": [2,18,2,0],
+      "isins": ["INF000S01MA8"]
+    },
+    {
+      "t": [2,2,2,0],
+      "isins": ["INF000S01BA1"]
+    },
+    {
+      "t": [2,3,2,0],
+      "isins": ["INF000S01CH4"]
+    },
+    {
+      "t": [3,9,1,0],
+      "isins": ["INF000S01GD4"]
+    }
+  ],
+  "synthetic": ["INF000S01AG0","INF000S01AR7","INF000S01BA1","INF000S01CB7","INF000S01CH4","INF000S01CR3","INF000S01CS1","INF000S01DY7","INF000S01EL2","INF000S01FL9","INF000S01FO3","INF000S01FR6","INF000S01GD4","INF000S01GL7","INF000S01IN9","INF000S01IX8","INF000S01LC6","INF000S01LD4","INF000S01LQ6","INF000S01MA8","INF000S01MD2","INF000S01RN0","INF000S01SD9","INF000S01SM0"]
+}

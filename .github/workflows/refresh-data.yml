@@ -1,0 +1,30 @@
+name: refresh-data
+
+on:
+  schedule:
+    - cron: '0 3 1 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: node scripts/refresh-benchmark.mjs --apply | tee benchmark.log
+      - run: node scripts/refresh-isin-map.mjs --apply | tee isin.log
+      - run: npm test -- tests/data
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          branch: data/refresh-${{ github.run_id }}
+          title: 'data: monthly AMFI refresh'
+          body-path: benchmark.log
+          add-paths: src/data/benchmarkNav.json,src/data/isinCategory.json

@@ -1,0 +1,16 @@
+{
+  "goldenVersion": 1,
+  "fixture": "scanned-2025.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-04"],
+  "edges": ["E8"],
+  "notes": "Two pages of vector blocks and no text objects: fewer than 200 characters on pages 1-3.",
+  "expect": "error",
+  "error": {
+    "code": "NO_TEXT",
+    "message": "ui.error.NO_TEXT"
+  }
+}

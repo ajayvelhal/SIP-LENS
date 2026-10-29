@@ -1,0 +1,12 @@
+{
+  "fixture": "cdsl-2025-depository.pdf",
+  "kind": "depository",
+  "expect": "DEPOSITORY_CAS",
+  "pageCount": 1,
+  "bytes": 2796,
+  "sha256": "005aef834b25278ac4be27c226d6187cf9361c68077a6bd4a55764750d810f69",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

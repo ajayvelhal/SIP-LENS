@@ -1,0 +1,338 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2025-segregated.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-09","US-14","US-17"],
+  "edges": ["E23","E24"],
+  "notes": "Segregated-portfolio section (units created, no cash, own closing value) and a bonus unit-adjustment row (no cash, counted in reconciliation).",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2025-03-31",
+      "statementPeriod": {
+        "from": "2018-01-01",
+        "to": "2025-03-31"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01CR3",
+          "isin": "INF000S01CR3",
+          "schemeName": "Lens Sample Credit Risk Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "8688578590 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 8527.407,
+              "closingNav": 39.2761,
+              "closingValue": 334923.29,
+              "transactions": [
+                {
+                  "id": "INF000S01CR3:8688578590 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "8688578590 / 0",
+                  "schemeName": "Lens Sample Credit Risk Fund - Direct Plan - Growth",
+                  "isin": "INF000S01CR3",
+                  "date": "2018-04-10",
+                  "description": "Purchase - via myCAMS",
+                  "kind": "purchase",
+                  "amount": 300000,
+                  "units": 13527.407,
+                  "nav": 22.1772,
+                  "unitBalance": 13527.407,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01CR3:8688578590 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "8688578590 / 0",
+                  "schemeName": "Lens Sample Credit Risk Fund - Direct Plan - Growth",
+                  "isin": "INF000S01CR3",
+                  "date": "2021-07-15",
+                  "description": "Redemption - via Online",
+                  "kind": "redemption",
+                  "amount": -148157.5,
+                  "units": -5000,
+                  "nav": 29.6315,
+                  "unitBalance": 8527.407,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 8527.407,
+                "printedClosingUnits": 8527.407,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 8527.407,
+          "closingNav": 39.2761,
+          "closingValue": 334923.29,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01CS1",
+          "isin": "INF000S01CS1",
+          "schemeName": "Lens Sample Credit Risk Fund - Segregated Portfolio 1 - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "8688578590 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 21345.678,
+              "closingNav": 1.6771,
+              "closingValue": 35798.84,
+              "transactions": [
+                {
+                  "id": "INF000S01CS1:8688578590 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "8688578590 / 0",
+                  "schemeName": "Lens Sample Credit Risk Fund - Segregated Portfolio 1 - Direct Plan - Growth",
+                  "isin": "INF000S01CS1",
+                  "date": "2020-03-06",
+                  "description": "Creation of Units - Segregated Portfolio 1",
+                  "kind": "segregated",
+                  "units": 21345.678,
+                  "unitBalance": 21345.678,
+                  "page": 1,
+                  "excludedFromCashflows": true
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 21345.678,
+                "printedClosingUnits": 21345.678,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 21345.678,
+          "closingNav": 1.6771,
+          "closingValue": 35798.84,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01AG0",
+          "isin": "INF000S01AG0",
+          "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "8688578590 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 500.643,
+              "closingNav": 562.6276,
+              "closingValue": 281675.57,
+              "transactions": [
+                {
+                  "id": "INF000S01AG0:8688578590 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "8688578590 / 0",
+                  "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+                  "isin": "INF000S01AG0",
+                  "date": "2018-04-10",
+                  "description": "Purchase-BSE",
+                  "kind": "purchase",
+                  "amount": 100000,
+                  "units": 455.13,
+                  "nav": 219.7176,
+                  "unitBalance": 455.13,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01AG0:8688578590 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "8688578590 / 0",
+                  "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+                  "isin": "INF000S01AG0",
+                  "date": "2022-09-12",
+                  "description": "Bonus Units Allotted",
+                  "kind": "unit_adjustment",
+                  "units": 45.513,
+                  "unitBalance": 500.643,
+                  "page": 1,
+                  "excludedFromCashflows": true
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 500.643,
+                "printedClosingUnits": 500.643,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 500.643,
+          "closingNav": 562.6276,
+          "closingValue": 281675.57,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 1,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01CR3": "ok",
+      "INF000S01CS1": "ok",
+      "INF000S01AG0": "ok"
+    },
+    "stats": {
+      "pages": 1,
+      "rows": 40,
+      "transactions": 5,
+      "unclassified": 0,
+      "folios": 3,
+      "funds": 3,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2025-03-31",
+      "totalInvested": 400000,
+      "totalRedeemed": 148157.5,
+      "valueAsOfStatementDate": 652397.7,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 652397.7,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 11.9149,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01CR3": {
+        "schemeName": "Lens Sample Credit Risk Fund - Direct Plan - Growth",
+        "closingUnits": 8527.407,
+        "closingNav": 39.2761,
+        "closingValue": 334923.29,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 300000,
+        "redeemed": 148157.5,
+        "netInvested": 151842.5,
+        "terminalValue": 334923.29,
+        "cashflowCount": 2,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2018-04-10",
+            "amount": -300000,
+            "label": "Purchase"
+          },
+          {
+            "date": "2021-07-15",
+            "amount": 148157.5,
+            "label": "Redemption"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 334923.29,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 8.6968,
+          "method": "newton"
+        }
+      },
+      "INF000S01CS1": {
+        "schemeName": "Lens Sample Credit Risk Fund - Segregated Portfolio 1 - Direct Plan - Growth",
+        "closingUnits": 21345.678,
+        "closingNav": 1.6771,
+        "closingValue": 35798.84,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 0,
+        "redeemed": 0,
+        "netInvested": 0,
+        "terminalValue": 35798.84,
+        "cashflowCount": 0,
+        "ignoredCount": 1,
+        "cashflows": [
+          {
+            "date": "2025-03-31",
+            "amount": 35798.84,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [
+          {
+            "transactionId": "INF000S01CS1:8688578590 / 0:0",
+            "reason": "segregated"
+          }
+        ],
+        "xirr": {
+          "status": "insufficient",
+          "reason": "fewer-than-two"
+        }
+      },
+      "INF000S01AG0": {
+        "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+        "closingUnits": 500.643,
+        "closingNav": 562.6276,
+        "closingValue": 281675.57,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 100000,
+        "redeemed": 0,
+        "netInvested": 100000,
+        "terminalValue": 281675.57,
+        "cashflowCount": 1,
+        "ignoredCount": 1,
+        "cashflows": [
+          {
+            "date": "2018-04-10",
+            "amount": -100000,
+            "label": "Purchase"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 281675.57,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [
+          {
+            "transactionId": "INF000S01AG0:8688578590 / 0:1",
+            "reason": "unit_adjustment"
+          }
+        ],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 15.9983,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": null,
+      "sips": []
+    }
+  }
+}

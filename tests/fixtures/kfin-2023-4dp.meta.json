@@ -1,0 +1,12 @@
+{
+  "fixture": "kfin-2023-4dp.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 2,
+  "bytes": 7203,
+  "sha256": "6919764202dc0a95155fbe142733e4cedaab2e194c35514fd317106aaf4e898b",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

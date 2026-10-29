@@ -1,0 +1,12 @@
+{
+  "fixture": "not-a-pdf.pdf",
+  "kind": "not-pdf",
+  "expect": "NOT_PDF",
+  "pageCount": 0,
+  "bytes": 99,
+  "sha256": "cf007146440b2668420d94ab70de814405fbf3a3022766b558eaf99118ec4b47",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

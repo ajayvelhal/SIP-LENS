@@ -1,0 +1,12 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+.env
+.env.*
+
+# Real statements must never be committed. Only synthetic fixtures are allowed.
+*.pdf
+!tests/fixtures/*.pdf
+!public/sample-cas.pdf

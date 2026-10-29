@@ -1,0 +1,12 @@
+{
+  "fixture": "not-cas-bank-statement.pdf",
+  "kind": "not-cas",
+  "expect": "NOT_CAS",
+  "pageCount": 1,
+  "bytes": 2292,
+  "sha256": "ea6aa3935865f13e1a0449874f6a6effc7dfac196e2c906b81ee224642f228c1",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

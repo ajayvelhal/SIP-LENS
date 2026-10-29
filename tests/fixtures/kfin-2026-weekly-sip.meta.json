@@ -1,0 +1,12 @@
+{
+  "fixture": "kfin-2026-weekly-sip.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 4,
+  "bytes": 12491,
+  "sha256": "989e2ecb0ee6297e744905d54f30d7048ca767b9f80ac041249e7aa72a948c8c",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-fully-redeemed.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 3,
+  "bytes": 11852,
+  "sha256": "0a07267e372614aee9581897ebb430bd9a829389031f9fa6703ce78e54fee982",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

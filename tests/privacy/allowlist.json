@@ -1,0 +1,34 @@
+{
+  "entries": [
+    {
+      "file": "src/parser/pdfWorker.ts",
+      "token": "new Date()",
+      "reason": "Portfolio.parsedAt: the engine's single wall-clock read, injected by the worker and never read inside parsing (design \u00a74.1)."
+    },
+    {
+      "file": "src/parser/pdfWorker.ts",
+      "token": "location.",
+      "reason": "Same-origin URL for pdfjs CMaps and standard fonts under /pdfjs/ (A24); never a third-party host."
+    },
+    {
+      "file": "src/parser/pdfWorker.ts",
+      "token": "postMessage(",
+      "reason": "The worker's only output channel (design \u00a73.2)."
+    },
+    {
+      "file": "src/workers/client.ts",
+      "token": "postMessage(",
+      "reason": "The main-thread side of the worker protocol (design \u00a73.3)."
+    },
+    {
+      "file": "src/hooks/useTheme.ts",
+      "token": "localStorage",
+      "reason": "Theme preference `sip-lens.theme` is the only value the app may store (US-19, US-21, CLAUDE.md); reads and writes are wrapped so blocked storage degrades to prefers-color-scheme."
+    },
+    {
+      "file": "src/lib/sampleCas.ts",
+      "token": "fetch(",
+      "reason": "Same-origin load of the bundled synthetic public/sample-cas.pdf for 'Try with a sample CAS' (US-11); the spec's US-20 lists the sample PDF among the permitted static asset loads. Nothing is sent and no other URL is ever fetched."
+    }
+  ]
+}

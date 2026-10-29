@@ -1,0 +1,1328 @@
+{
+  "goldenVersion": 1,
+  "fixture": "kfin-2020-plain.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-07","US-09","US-10","US-14"],
+  "edges": ["E50","E51","E64"],
+  "notes": "KFintech layout: different column anchors, negatives in parentheses, numbers printed on the last line of a wrapped description.",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "KFINTECH",
+      "statementDate": "2020-12-31",
+      "statementPeriod": {
+        "from": "2017-01-01",
+        "to": "2020-12-31"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01SM0",
+          "isin": "INF000S01SM0",
+          "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "1061654071 / 20",
+              "rta": "KFINTECH",
+              "openingUnits": 0,
+              "closingUnits": 3832.811,
+              "closingNav": 96.0724,
+              "closingValue": 368227.35,
+              "transactions": [
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:0",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-03-10",
+                  "description": "Purchase - Systematic (Instalment 1)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 98.206,
+                  "nav": 50.9136,
+                  "unitBalance": 98.206,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:1",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-04-10",
+                  "description": "Purchase - Systematic (Instalment 2)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 101.036,
+                  "nav": 49.4872,
+                  "unitBalance": 199.242,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:2",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-05-10",
+                  "description": "Purchase - Systematic (Instalment 3)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 107.289,
+                  "nav": 46.6032,
+                  "unitBalance": 306.531,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:3",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-06-12",
+                  "description": "Purchase - Systematic (Instalment 4)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 104.728,
+                  "nav": 47.7429,
+                  "unitBalance": 411.259,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:4",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-07-10",
+                  "description": "Purchase - Systematic (Instalment 5)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 108.484,
+                  "nav": 46.0898,
+                  "unitBalance": 519.743,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:5",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-08-10",
+                  "description": "Purchase - Systematic (Instalment 6)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 108.315,
+                  "nav": 46.1617,
+                  "unitBalance": 628.058,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:6",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-09-11",
+                  "description": "Purchase - Systematic (Instalment 7)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 109.258,
+                  "nav": 45.7633,
+                  "unitBalance": 737.316,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:7",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-10-10",
+                  "description": "Purchase - Systematic (Instalment 8)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 116.311,
+                  "nav": 42.9883,
+                  "unitBalance": 853.627,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:8",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-11-10",
+                  "description": "Purchase - Systematic (Instalment 9)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 121.822,
+                  "nav": 41.0435,
+                  "unitBalance": 975.449,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:9",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-12-11",
+                  "description": "Purchase - Systematic (Instalment 10)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 107.437,
+                  "nav": 46.5391,
+                  "unitBalance": 1082.886,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:10",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-01-10",
+                  "description": "Purchase - Systematic (Instalment 11)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 108.367,
+                  "nav": 46.1396,
+                  "unitBalance": 1191.253,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:11",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-02-12",
+                  "description": "Purchase - Systematic (Instalment 12)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 99.015,
+                  "nav": 50.4975,
+                  "unitBalance": 1290.268,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:12",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-03-12",
+                  "description": "Purchase - Systematic (Instalment 13)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 93.765,
+                  "nav": 53.3248,
+                  "unitBalance": 1384.033,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:13",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-04-10",
+                  "description": "Purchase - Systematic (Instalment 14)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 90.381,
+                  "nav": 55.3215,
+                  "unitBalance": 1474.414,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:14",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-05-10",
+                  "description": "Purchase - Systematic (Instalment 15)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 102.149,
+                  "nav": 48.9483,
+                  "unitBalance": 1576.563,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:15",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-06-11",
+                  "description": "Purchase - Systematic (Instalment 16)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 99.261,
+                  "nav": 50.3723,
+                  "unitBalance": 1675.824,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:16",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-07-10",
+                  "description": "Purchase - Systematic (Instalment 17)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 92.736,
+                  "nav": 53.9167,
+                  "unitBalance": 1768.56,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:17",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-08-10",
+                  "description": "Purchase - Systematic (Instalment 18)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 91.755,
+                  "nav": 54.4931,
+                  "unitBalance": 1860.315,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:18",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-09-10",
+                  "description": "Purchase - Systematic (Instalment 19)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 93.439,
+                  "nav": 53.511,
+                  "unitBalance": 1953.754,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:19",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-10-10",
+                  "description": "Purchase - Systematic (Instalment 20)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 85.967,
+                  "nav": 58.162,
+                  "unitBalance": 2039.721,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:20",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-11-12",
+                  "description": "Purchase - Systematic (Instalment 21)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 83.352,
+                  "nav": 59.9866,
+                  "unitBalance": 2123.073,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:21",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-12-10",
+                  "description": "Purchase - Systematic (Instalment 22)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 86.26,
+                  "nav": 57.9645,
+                  "unitBalance": 2209.333,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:22",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-01-10",
+                  "description": "Purchase - Systematic (Instalment 23)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 79.948,
+                  "nav": 62.5407,
+                  "unitBalance": 2289.281,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:23",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-02-11",
+                  "description": "Purchase - Systematic (Instalment 24)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 76.811,
+                  "nav": 65.0948,
+                  "unitBalance": 2366.092,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:24",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-03-11",
+                  "description": "Purchase - Systematic (Instalment 25)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 75.663,
+                  "nav": 66.0823,
+                  "unitBalance": 2441.755,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:25",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-04-10",
+                  "description": "Purchase - Systematic (Instalment 26)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 65.935,
+                  "nav": 75.8321,
+                  "unitBalance": 2507.69,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:26",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-05-10",
+                  "description": "Purchase - Systematic (Instalment 27)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 68.125,
+                  "nav": 73.3946,
+                  "unitBalance": 2575.815,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:27",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-06-10",
+                  "description": "Purchase - Systematic (Instalment 28)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 66.168,
+                  "nav": 75.565,
+                  "unitBalance": 2641.983,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:28",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-07-10",
+                  "description": "Purchase - Systematic (Instalment 29)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 69.023,
+                  "nav": 72.4394,
+                  "unitBalance": 2711.006,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:29",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-08-12",
+                  "description": "Purchase - Systematic (Instalment 30)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 71.621,
+                  "nav": 69.8119,
+                  "unitBalance": 2782.627,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:30",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-09-10",
+                  "description": "Purchase - Systematic (Instalment 31)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 77.825,
+                  "nav": 64.2471,
+                  "unitBalance": 2860.452,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:31",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-10-10",
+                  "description": "Purchase - Systematic (Instalment 32)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 78.635,
+                  "nav": 63.5848,
+                  "unitBalance": 2939.087,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:32",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-10-14",
+                  "description": "Redemption - Online",
+                  "kind": "redemption",
+                  "amount": -31717.8,
+                  "units": -500,
+                  "nav": 63.4356,
+                  "unitBalance": 2439.087,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:33"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:33",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-10-14",
+                  "description": "*** STT Paid ***",
+                  "kind": "stt_tds",
+                  "amount": 0.32,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:32",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:34",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-11-11",
+                  "description": "Purchase - Systematic (Instalment 33)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 75.187,
+                  "nav": 66.5013,
+                  "unitBalance": 2514.274,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:35",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-12-10",
+                  "description": "Purchase - Systematic (Instalment 34)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 82.185,
+                  "nav": 60.8385,
+                  "unitBalance": 2596.459,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:36",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-01-10",
+                  "description": "Purchase - Systematic (Instalment 35)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 70.784,
+                  "nav": 70.6375,
+                  "unitBalance": 2667.243,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:37",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-02-10",
+                  "description": "Purchase - Systematic (Instalment 36)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 67.651,
+                  "nav": 73.9087,
+                  "unitBalance": 2734.894,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:38",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-03-10",
+                  "description": "Purchase - Systematic (Instalment 37)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 148.647,
+                  "nav": 33.6368,
+                  "unitBalance": 2883.541,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:39",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-04-10",
+                  "description": "Purchase - Systematic (Instalment 38)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 174.034,
+                  "nav": 28.7301,
+                  "unitBalance": 3057.575,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:40",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-05-11",
+                  "description": "Purchase - Systematic (Instalment 39)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.747,
+                  "nav": 34.3061,
+                  "unitBalance": 3203.322,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:41",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-06-10",
+                  "description": "Purchase - Systematic (Instalment 40)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 130.935,
+                  "nav": 38.1869,
+                  "unitBalance": 3334.257,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:42",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-07-10",
+                  "description": "Purchase - Systematic (Instalment 41)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 118.554,
+                  "nav": 42.1729,
+                  "unitBalance": 3452.811,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:43"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:43",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:42",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:44",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-08-10",
+                  "description": "Purchase - Systematic (Instalment 42)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 92.967,
+                  "nav": 53.7796,
+                  "unitBalance": 3545.778,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:45"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:45",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:44",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:46",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-09-10",
+                  "description": "Purchase - Systematic (Instalment 43)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 93.879,
+                  "nav": 53.2576,
+                  "unitBalance": 3639.657,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:47"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:47",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:46",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:48",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-10-12",
+                  "description": "Purchase - Systematic (Instalment 44)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 73.388,
+                  "nav": 68.1273,
+                  "unitBalance": 3713.045,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:49"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:49",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:48",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:50",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-11-10",
+                  "description": "Purchase - Systematic (Instalment 45)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 64.754,
+                  "nav": 77.2118,
+                  "unitBalance": 3777.799,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:51"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:51",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:50",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:52",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-12-10",
+                  "description": "Purchase - Systematic (Instalment 46)",
+                  "kind": "sip",
+                  "amount": 4999.75,
+                  "units": 55.012,
+                  "nav": 90.8844,
+                  "unitBalance": 3832.811,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:1061654071 / 20:53"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:1061654071 / 20:53",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.25,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:1061654071 / 20:52",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 3832.811,
+                "printedClosingUnits": 3832.811,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 3832.811,
+          "closingNav": 96.0724,
+          "closingValue": 368227.35,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01CB7",
+          "isin": "INF000S01CB7",
+          "schemeName": "Lens Sample Corporate Bond Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "1061654071 / 20",
+              "rta": "KFINTECH",
+              "openingUnits": 0,
+              "closingUnits": 4791.781,
+              "closingNav": 37.4803,
+              "closingValue": 179597.39,
+              "transactions": [
+                {
+                  "id": "INF000S01CB7:1061654071 / 20:0",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1061654071 / 20",
+                  "schemeName": "Lens Sample Corporate Bond Fund - Direct Plan - Growth",
+                  "isin": "INF000S01CB7",
+                  "date": "2018-07-16",
+                  "description": "Purchase - Online",
+                  "kind": "purchase",
+                  "amount": 150000,
+                  "units": 4791.781,
+                  "nav": 31.3036,
+                  "unitBalance": 4791.781,
+                  "page": 2,
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 4791.781,
+                "printedClosingUnits": 4791.781,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4791.781,
+          "closingNav": 37.4803,
+          "closingValue": 179597.39,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 2,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01SM0": "ok",
+      "INF000S01CB7": "ok"
+    },
+    "stats": {
+      "pages": 2,
+      "rows": 86,
+      "transactions": 55,
+      "unclassified": 0,
+      "folios": 2,
+      "funds": 2,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2020-12-31",
+      "totalInvested": 380000,
+      "totalRedeemed": 31717.48,
+      "valueAsOfStatementDate": 547824.74,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 547824.74,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 21.7472,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01SM0": {
+        "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+        "closingUnits": 3832.811,
+        "closingNav": 96.0724,
+        "closingValue": 368227.35,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 230000,
+        "redeemed": 31717.48,
+        "netInvested": 198282.52,
+        "terminalValue": 368227.35,
+        "cashflowCount": 47,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2017-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-06-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-09-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-12-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-02-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-03-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-06-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-11-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-02-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-03-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-08-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-10-14",
+            "amount": 31717.48,
+            "label": "Redemption − STT"
+          },
+          {
+            "date": "2019-11-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-31",
+            "amount": 368227.35,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 32.0494,
+          "method": "newton"
+        }
+      },
+      "INF000S01CB7": {
+        "schemeName": "Lens Sample Corporate Bond Fund - Direct Plan - Growth",
+        "closingUnits": 4791.781,
+        "closingNav": 37.4803,
+        "closingValue": 179597.39,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 150000,
+        "redeemed": 0,
+        "netInvested": 150000,
+        "terminalValue": 179597.39,
+        "cashflowCount": 1,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2018-07-16",
+            "amount": -150000,
+            "label": "Purchase"
+          },
+          {
+            "date": "2020-12-31",
+            "amount": 179597.39,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 7.5854,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01SM0",
+          "folioNumber": "1061654071 / 20",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-03-10",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2017-03-10",
+          "lastObserved": "2020-12-10",
+          "counts": {
+            "expected": 46,
+            "made": 46,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

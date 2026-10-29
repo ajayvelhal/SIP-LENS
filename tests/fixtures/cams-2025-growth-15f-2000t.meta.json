@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-growth-15f-2000t.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 29,
+  "bytes": 105087,
+  "sha256": "ded82c6aad5419f92d63a231f014e08a17d97b848bc5b00cd5e88af8c8615305",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

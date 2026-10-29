@@ -1,0 +1,12 @@
+{
+  "fixture": "sample-cas.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 11,
+  "bytes": 36717,
+  "sha256": "30770115d10f5fcf9aed93bbee7f6be383a71cb8cbeb1c310a03b12e497d811d",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

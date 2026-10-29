@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2022-stamp-duty-stt.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 2,
+  "bytes": 6504,
+  "sha256": "7cd0b72e490634bf1924a3b47ebde1b3bec54c070182290e13a647e7a4d49307",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

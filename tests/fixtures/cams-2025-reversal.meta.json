@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-reversal.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 3,
+  "bytes": 9729,
+  "sha256": "7eb54a0323e5cd79234aea077698d5d3149030af31d39bcf3093d839af5e9598",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "goldenVersion": 1,
+  "fixture": "kfin-2025-summary.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-05"],
+  "edges": ["E10"],
+  "notes": "KFintech summary CAS; the UI shows the KFintech request steps.",
+  "expect": "error",
+  "error": {
+    "code": "SUMMARY_CAS",
+    "message": "ui.error.SUMMARY_CAS",
+    "issuer": "KFINTECH",
+    "schemeNames": [
+      "Lens Sample Small Cap Fund - Direct Plan - Growth"
+    ],
+    "statementDate": "2025-03-31"
+  }
+}

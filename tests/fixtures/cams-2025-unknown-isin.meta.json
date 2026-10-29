@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-unknown-isin.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 4,
+  "bytes": 13297,
+  "sha256": "df86b9465e28877a47210fc4083111206e1109fc1ae3d9ad3ac828dd8e529c74",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

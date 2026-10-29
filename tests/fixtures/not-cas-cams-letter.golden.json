@@ -1,0 +1,16 @@
+{
+  "goldenVersion": 1,
+  "fixture": "not-cas-cams-letter.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-04"],
+  "edges": ["E9"],
+  "notes": "A CAMS service letter mentioning a folio and PAN: passes the page-1 marker test, but the full walk finds zero folio sections.",
+  "expect": "error",
+  "error": {
+    "code": "NOT_CAS",
+    "message": "ui.error.NOT_CAS"
+  }
+}

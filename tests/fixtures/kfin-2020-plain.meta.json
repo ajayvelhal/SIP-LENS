@@ -1,0 +1,12 @@
+{
+  "fixture": "kfin-2020-plain.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 2,
+  "bytes": 6587,
+  "sha256": "0e5c9ea7217bba9fb51faec016ac90e93f9dcbf7e6be2a60451a95c436489b40",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "stress-cams-2025-100p.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 103,
+  "bytes": 361276,
+  "sha256": "2bf4bcdb2747aae737f3fff38eb814322c89831789b0ae0223152bcd10388ddf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

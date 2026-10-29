@@ -1,0 +1,12 @@
+{
+  "fixture": "nsdl-2025-depository.pdf",
+  "kind": "depository",
+  "expect": "DEPOSITORY_CAS",
+  "pageCount": 1,
+  "bytes": 2789,
+  "sha256": "196bb26654235783d5e009c7f033676ba9f5155f72ac05e801bd00ce5cf48e4c",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

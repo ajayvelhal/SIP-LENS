@@ -1,0 +1,434 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2025-idcw.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-09","US-14","US-17","US-30"],
+  "edges": ["E16","E17","E20","E42"],
+  "notes": "IDCW payout plan (inflows, units unchanged) and IDCW reinvestment plan (zero cash, new lots, stamp duty on post-2020 reinvestments). Bare \"IDCW\" rows with and without units.",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2025-03-31",
+      "statementPeriod": {
+        "from": "2019-01-01",
+        "to": "2025-03-31"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01LD4",
+          "isin": "INF000S01LD4",
+          "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "8087450065 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 8387.256,
+              "closingNav": 31.7262,
+              "closingValue": 266095.76,
+              "transactions": [
+                {
+                  "id": "INF000S01LD4:8087450065 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+                  "isin": "INF000S01LD4",
+                  "date": "2019-02-11",
+                  "description": "Purchase - via myCAMS",
+                  "kind": "purchase",
+                  "amount": 200000,
+                  "units": 8387.256,
+                  "nav": 23.8457,
+                  "unitBalance": 8387.256,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LD4:8087450065 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+                  "isin": "INF000S01LD4",
+                  "date": "2019-12-16",
+                  "description": "Dividend Paid",
+                  "kind": "dividend_payout",
+                  "amount": 7548.53,
+                  "nav": 21.8326,
+                  "unitBalance": 8387.256,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LD4:8087450065 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+                  "isin": "INF000S01LD4",
+                  "date": "2021-03-15",
+                  "description": "IDCW Payout",
+                  "kind": "dividend_payout",
+                  "amount": 9225.98,
+                  "nav": 25.9678,
+                  "unitBalance": 8387.256,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LD4:8087450065 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+                  "isin": "INF000S01LD4",
+                  "date": "2023-03-20",
+                  "description": "IDCW",
+                  "kind": "dividend_payout",
+                  "amount": 8387.26,
+                  "nav": 21.9968,
+                  "unitBalance": 8387.256,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LD4:8087450065 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+                  "isin": "INF000S01LD4",
+                  "date": "2024-03-18",
+                  "description": "IDCW Payout",
+                  "kind": "dividend_payout",
+                  "amount": 10064.71,
+                  "nav": 27.689,
+                  "unitBalance": 8387.256,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 8387.256,
+                "printedClosingUnits": 8387.256,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 8387.256,
+          "closingNav": 31.7262,
+          "closingValue": 266095.76,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01FR6",
+          "isin": "INF000S01FR6",
+          "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "8087450065 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 4711.098,
+              "closingNav": 89.4454,
+              "closingValue": 421386.05,
+              "transactions": [
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2019-02-11",
+                  "description": "Purchase-BSE",
+                  "kind": "purchase",
+                  "amount": 150000,
+                  "units": 4410.377,
+                  "nav": 34.0107,
+                  "unitBalance": 4410.377,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2019-12-16",
+                  "description": "Dividend Reinvested",
+                  "kind": "dividend_reinvest",
+                  "amount": 3528.3,
+                  "units": 90.084,
+                  "nav": 39.1668,
+                  "unitBalance": 4500.461,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2021-03-15",
+                  "description": "IDCW Reinvestment",
+                  "kind": "dividend_reinvest",
+                  "amount": 4500.23,
+                  "units": 76.778,
+                  "nav": 58.6132,
+                  "unitBalance": 4577.239,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FR6:8087450065 / 0:3"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2021-03-15",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.23,
+                  "page": 1,
+                  "attachedTo": "INF000S01FR6:8087450065 / 0:2",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2023-03-20",
+                  "description": "IDCW",
+                  "kind": "dividend_reinvest",
+                  "amount": 4119.31,
+                  "units": 68.797,
+                  "nav": 59.8763,
+                  "unitBalance": 4646.036,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FR6:8087450065 / 0:5"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2023-03-20",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.21,
+                  "page": 1,
+                  "attachedTo": "INF000S01FR6:8087450065 / 0:4",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2024-03-18",
+                  "description": "IDCW Reinvestment",
+                  "kind": "dividend_reinvest",
+                  "amount": 5110.38,
+                  "units": 65.062,
+                  "nav": 78.5461,
+                  "unitBalance": 4711.098,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01FR6:8087450065 / 0:7"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01FR6:8087450065 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "8087450065 / 0",
+                  "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+                  "isin": "INF000S01FR6",
+                  "date": "2024-03-18",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.26,
+                  "page": 1,
+                  "attachedTo": "INF000S01FR6:8087450065 / 0:6",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 4711.098,
+                "printedClosingUnits": 4711.098,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4711.098,
+          "closingNav": 89.4454,
+          "closingValue": 421386.05,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 1,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01LD4": "ok",
+      "INF000S01FR6": "ok"
+    },
+    "stats": {
+      "pages": 1,
+      "rows": 41,
+      "transactions": 13,
+      "unclassified": 0,
+      "folios": 2,
+      "funds": 2,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2025-03-31",
+      "totalInvested": 350000,
+      "totalRedeemed": 35226.48,
+      "valueAsOfStatementDate": 687481.81,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 687481.81,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 12.9539,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01LD4": {
+        "schemeName": "Lens Sample Large Cap Fund - Direct Plan - IDCW Payout",
+        "closingUnits": 8387.256,
+        "closingNav": 31.7262,
+        "closingValue": 266095.76,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 200000,
+        "redeemed": 35226.48,
+        "netInvested": 164773.52,
+        "terminalValue": 266095.76,
+        "cashflowCount": 5,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2019-02-11",
+            "amount": -200000,
+            "label": "Purchase"
+          },
+          {
+            "date": "2019-12-16",
+            "amount": 7548.53,
+            "label": "IDCW payout"
+          },
+          {
+            "date": "2021-03-15",
+            "amount": 9225.98,
+            "label": "IDCW payout"
+          },
+          {
+            "date": "2023-03-20",
+            "amount": 8387.26,
+            "label": "IDCW payout"
+          },
+          {
+            "date": "2024-03-18",
+            "amount": 10064.71,
+            "label": "IDCW payout"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 266095.76,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 7.4002,
+          "method": "newton"
+        }
+      },
+      "INF000S01FR6": {
+        "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - IDCW Reinvestment",
+        "closingUnits": 4711.098,
+        "closingNav": 89.4454,
+        "closingValue": 421386.05,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 150000,
+        "redeemed": 0,
+        "netInvested": 150000,
+        "terminalValue": 421386.05,
+        "cashflowCount": 1,
+        "ignoredCount": 4,
+        "cashflows": [
+          {
+            "date": "2019-02-11",
+            "amount": -150000,
+            "label": "Purchase"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 421386.05,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [
+          {
+            "transactionId": "INF000S01FR6:8087450065 / 0:1",
+            "reason": "dividend_reinvest"
+          },
+          {
+            "transactionId": "INF000S01FR6:8087450065 / 0:2",
+            "reason": "dividend_reinvest"
+          },
+          {
+            "transactionId": "INF000S01FR6:8087450065 / 0:4",
+            "reason": "dividend_reinvest"
+          },
+          {
+            "transactionId": "INF000S01FR6:8087450065 / 0:6",
+            "reason": "dividend_reinvest"
+          }
+        ],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 18.3303,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": null,
+      "sips": []
+    }
+  }
+}

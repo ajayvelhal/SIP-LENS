@@ -1,0 +1,12 @@
+{
+  "fixture": "multi-pan-2025.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 4,
+  "bytes": 14130,
+  "sha256": "9e9090e39150e9daad8db4b7c897026383af52f7074d225a8fa807e1f67326a2",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-summary.pdf",
+  "kind": "summary",
+  "expect": "SUMMARY_CAS",
+  "pageCount": 1,
+  "bytes": 2649,
+  "sha256": "3ed28c96aa04378e31c8ecea1a3385d5727ceea956fd6b38f8d65ee42be78008",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "goldenVersion": 1,
+  "fixture": "not-cas-bank-statement.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-04"],
+  "edges": ["E9"],
+  "notes": "A synthetic bank account statement PDF: text, but no RTA + CAS markers.",
+  "expect": "error",
+  "error": {
+    "code": "NOT_CAS",
+    "message": "ui.error.NOT_CAS"
+  }
+}

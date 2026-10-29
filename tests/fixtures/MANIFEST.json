@@ -1,0 +1,376 @@
+{
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "files": {
+    "tests/fixtures/cams-2019-plain-sip.pdf": {
+      "bytes": 4702,
+      "sha256": "639029643249a07ce9a6ee8f4d5ed02d9a902495838e1bd90c8d8adfbf997ee4"
+    },
+    "tests/fixtures/cams-2019-plain-sip.golden.json": {
+      "bytes": 33480,
+      "sha256": "e74a89bd0360575273dd4b9dcde9ac66ca429ff8d6f1a1fca478d515fda973dc"
+    },
+    "tests/fixtures/cams-2019-plain-sip.meta.json": {
+      "bytes": 289,
+      "sha256": "a316b6a660bc9d3d609d6b0846d32a7be176a946b10e6b08df45cfbe87f2208a"
+    },
+    "tests/fixtures/cams-2022-stamp-duty-stt.pdf": {
+      "bytes": 6504,
+      "sha256": "7cd0b72e490634bf1924a3b47ebde1b3bec54c070182290e13a647e7a4d49307"
+    },
+    "tests/fixtures/cams-2022-stamp-duty-stt.golden.json": {
+      "bytes": 59544,
+      "sha256": "20aaed9fd8677e80b98b5cb49354b73aa5b39584cbf3321b0da1ed4657da55fc"
+    },
+    "tests/fixtures/cams-2022-stamp-duty-stt.meta.json": {
+      "bytes": 294,
+      "sha256": "b3ba7abd98aa281509b5afcfce8c6d067341d9f30c27be55a64afd27cb3a6280"
+    },
+    "tests/fixtures/cams-2025-switch-pair.pdf": {
+      "bytes": 8556,
+      "sha256": "c5d2a2f21ccfcaee1d9d6144f330616e018aa9e7f278ca490e4e28c06d9e27de"
+    },
+    "tests/fixtures/cams-2025-switch-pair.golden.json": {
+      "bytes": 78979,
+      "sha256": "e6d7741579d52bbe54b157b8fc3359d8aa6a8320bd4c83ba7702fa3f7471f717"
+    },
+    "tests/fixtures/cams-2025-switch-pair.meta.json": {
+      "bytes": 291,
+      "sha256": "227623cdc2cdef63dd3f63f0c84f8cc4978f795b6a1f74c686b819064a654beb"
+    },
+    "tests/fixtures/cams-2025-idcw.pdf": {
+      "bytes": 3455,
+      "sha256": "f4126cabb9843d47c80e7b6d8d6efcaeeac6dec06b9bdce71eaf06fd78cb8a46"
+    },
+    "tests/fixtures/cams-2025-idcw.golden.json": {
+      "bytes": 15154,
+      "sha256": "83394338eb3fcaab3860e7a22ac3bde1fdb5942ba64e958813701c1128e21cae"
+    },
+    "tests/fixtures/cams-2025-idcw.meta.json": {
+      "bytes": 284,
+      "sha256": "9916f8ec3afbfd4667c7fd99529c7aaffec949d0c83b59336c4d9659acbe6789"
+    },
+    "tests/fixtures/cams-2025-reversal.pdf": {
+      "bytes": 9729,
+      "sha256": "7eb54a0323e5cd79234aea077698d5d3149030af31d39bcf3093d839af5e9598"
+    },
+    "tests/fixtures/cams-2025-reversal.golden.json": {
+      "bytes": 109177,
+      "sha256": "259432c7cd2c5bc14ca3d4516dc841931be9aff9f301b86607b2df9a6802b74c"
+    },
+    "tests/fixtures/cams-2025-reversal.meta.json": {
+      "bytes": 288,
+      "sha256": "70195501cb57fe570aaa4df73ce354196a429318877de560e7e720259ba63002"
+    },
+    "tests/fixtures/cams-2025-segregated.pdf": {
+      "bytes": 3297,
+      "sha256": "37c059be4dad5ca50a0431d79a2134dcbcb65fd0942c87b9b42a2b1c1702d784"
+    },
+    "tests/fixtures/cams-2025-segregated.golden.json": {
+      "bytes": 10714,
+      "sha256": "efca04bbc05a7461c3c6952939395e680f8c201ee42c3999dcc79b155ef4415d"
+    },
+    "tests/fixtures/cams-2025-segregated.meta.json": {
+      "bytes": 290,
+      "sha256": "22fe3ce50b25c7e618efe7b64bb3592dbb7a7c6509af98b63111d7171a6a1cbf"
+    },
+    "tests/fixtures/cams-2025-fully-redeemed.pdf": {
+      "bytes": 11852,
+      "sha256": "0a07267e372614aee9581897ebb430bd9a829389031f9fa6703ce78e54fee982"
+    },
+    "tests/fixtures/cams-2025-fully-redeemed.golden.json": {
+      "bytes": 139374,
+      "sha256": "c2c5dd3fbcf6c0cb442d76dc777ed09ef08c9feb7142574271e8b51c8ab57b63"
+    },
+    "tests/fixtures/cams-2025-fully-redeemed.meta.json": {
+      "bytes": 295,
+      "sha256": "144904ddc1f74872091dfc87236cb7159086164929fcc5040c9c9d4adc6ffb18"
+    },
+    "tests/fixtures/cams-2025-sip-patterns.pdf": {
+      "bytes": 27701,
+      "sha256": "f6fc2a004f41bd3e84c48e96c33fdf95d5a8063f75dfee3bc1a404b8fc3c8f65"
+    },
+    "tests/fixtures/cams-2025-sip-patterns.golden.json": {
+      "bytes": 397210,
+      "sha256": "235359b9ad29906c1fba794b006251f2d29d3ceccd56be12a9660e2af6c07b84"
+    },
+    "tests/fixtures/cams-2025-sip-patterns.meta.json": {
+      "bytes": 293,
+      "sha256": "ac1b0685ef8349471de126fd3482b9da83a6826a95781727723cbe6eb60f5d5b"
+    },
+    "tests/fixtures/cams-2025-elss-tax.pdf": {
+      "bytes": 8986,
+      "sha256": "d9cbf2388cae6eb7dba8ef51b1e937595a5f6538fba82be062aaaeb510c535fe"
+    },
+    "tests/fixtures/cams-2025-elss-tax.golden.json": {
+      "bytes": 100153,
+      "sha256": "72ef56cd09ebc17064d715c02e439f3d56c9ea378ecf10a71130c10f54e7a621"
+    },
+    "tests/fixtures/cams-2025-elss-tax.meta.json": {
+      "bytes": 288,
+      "sha256": "d9c0b06e4ec299c1998afcef81b323a81af2d94c9929fc0b9bf150f2c5c0ea1b"
+    },
+    "tests/fixtures/cams-2025-unknown-isin.pdf": {
+      "bytes": 13297,
+      "sha256": "df86b9465e28877a47210fc4083111206e1109fc1ae3d9ad3ac828dd8e529c74"
+    },
+    "tests/fixtures/cams-2025-unknown-isin.golden.json": {
+      "bytes": 169999,
+      "sha256": "d2a4175f58405959dc44597295c07156fe25984d7808719b05cab6498f067e79"
+    },
+    "tests/fixtures/cams-2025-unknown-isin.meta.json": {
+      "bytes": 293,
+      "sha256": "fbf222dfca1923a3af3c766388da49321986e9f9d9f7bad05e364d29c284f831"
+    },
+    "tests/fixtures/cams-2025-parse-warnings.pdf": {
+      "bytes": 17386,
+      "sha256": "374fa50de437e4e8675da6138c9d30b5cc0f5a7e36a07473da576fe251c49304"
+    },
+    "tests/fixtures/cams-2025-parse-warnings.golden.json": {
+      "bytes": 181375,
+      "sha256": "5856ae75c04dbfb2304e78519c4fd33f9d9af3544c3ff7e5e18e120bf317a7e4"
+    },
+    "tests/fixtures/cams-2025-parse-warnings.meta.json": {
+      "bytes": 295,
+      "sha256": "08a6b618f5a759189d3821d60375dbc52f0b565a5bba3c77bcf0afd32d153fb5"
+    },
+    "tests/fixtures/cams-2025-missing-period.pdf": {
+      "bytes": 4437,
+      "sha256": "9c9073eb243e47a7e91921137cdf6d114838a415d2e9e54264c9db816d826074"
+    },
+    "tests/fixtures/cams-2025-missing-period.golden.json": {
+      "bytes": 43025,
+      "sha256": "16971204410324966e0789c82d3dc50e6fda7348c94675988a9a7df430163904"
+    },
+    "tests/fixtures/cams-2025-missing-period.meta.json": {
+      "bytes": 294,
+      "sha256": "7a36aa7581c311ab9e5eb22fc264b13708f87583509aeec5b7bb5afb8ce1d1b4"
+    },
+    "tests/fixtures/kfin-2020-plain.pdf": {
+      "bytes": 6587,
+      "sha256": "0e5c9ea7217bba9fb51faec016ac90e93f9dcbf7e6be2a60451a95c436489b40"
+    },
+    "tests/fixtures/kfin-2020-plain.golden.json": {
+      "bytes": 48952,
+      "sha256": "1e5ab8f4b1b8883297af2d94f6e8a2db1c69bd870b855c3ed59a03df09abb955"
+    },
+    "tests/fixtures/kfin-2020-plain.meta.json": {
+      "bytes": 285,
+      "sha256": "c3ab328f0c2ed990c2c045c2c876bf14b8da8d28805e0e63f1ca572d015b862e"
+    },
+    "tests/fixtures/kfin-2023-4dp.pdf": {
+      "bytes": 7203,
+      "sha256": "6919764202dc0a95155fbe142733e4cedaab2e194c35514fd317106aaf4e898b"
+    },
+    "tests/fixtures/kfin-2023-4dp.golden.json": {
+      "bytes": 73377,
+      "sha256": "73a5f9209129017471c80168080e5684606da8ad0d53f74164973054f31888b2"
+    },
+    "tests/fixtures/kfin-2023-4dp.meta.json": {
+      "bytes": 283,
+      "sha256": "f7607685cdc34224b0b5d3b5ab985209b778ebf49016ea21f0ab1e7564d509bf"
+    },
+    "tests/fixtures/kfin-2026-weekly-sip.pdf": {
+      "bytes": 12491,
+      "sha256": "989e2ecb0ee6297e744905d54f30d7048ca767b9f80ac041249e7aa72a948c8c"
+    },
+    "tests/fixtures/kfin-2026-weekly-sip.golden.json": {
+      "bytes": 157707,
+      "sha256": "b077f056084c37781f45dbe70ce820bf551bf2e42ee621296567dfcbde646ee5"
+    },
+    "tests/fixtures/kfin-2026-weekly-sip.meta.json": {
+      "bytes": 291,
+      "sha256": "bebcaa97dd05b55157158fcfa4e7a0617a80c5e3402ec819a7646a6778abde4d"
+    },
+    "tests/fixtures/joint-cams-kfin-2025.pdf": {
+      "bytes": 13938,
+      "sha256": "0919ae5b1e4ea701c51bedf171015a7946b7a962a1ec33392fc165853085398c"
+    },
+    "tests/fixtures/joint-cams-kfin-2025.golden.json": {
+      "bytes": 186443,
+      "sha256": "237388c78ae0e83808e8ab31d9fd38db5adad0540bc6b5c442c9f8ce10797569"
+    },
+    "tests/fixtures/joint-cams-kfin-2025.meta.json": {
+      "bytes": 291,
+      "sha256": "830b15ae4fc16a3fa30127711124aa4d4bdbf562c1eacb7df996f236452ab07c"
+    },
+    "tests/fixtures/multi-pan-2025.pdf": {
+      "bytes": 14130,
+      "sha256": "9e9090e39150e9daad8db4b7c897026383af52f7074d225a8fa807e1f67326a2"
+    },
+    "tests/fixtures/multi-pan-2025.golden.json": {
+      "bytes": 186195,
+      "sha256": "95ed3d482bc3c666bd8e4601cc91fe92c0d7a2dc68a33674a4fcb2420dc1e974"
+    },
+    "tests/fixtures/multi-pan-2025.meta.json": {
+      "bytes": 285,
+      "sha256": "4d6c1c7ae0084b46a347a768ee877242da34d0f50ca8659a2d582bd250a5b5a5"
+    },
+    "tests/fixtures/cams-2025-growth-15f-2000t.pdf": {
+      "bytes": 105087,
+      "sha256": "ded82c6aad5419f92d63a231f014e08a17d97b848bc5b00cd5e88af8c8615305"
+    },
+    "tests/fixtures/cams-2025-growth-15f-2000t.golden.json": {
+      "bytes": 33353,
+      "sha256": "d2b45b21cda02ec57595a9b744bf129007fa641ba6837e48ef3a850183b921ec"
+    },
+    "tests/fixtures/cams-2025-growth-15f-2000t.meta.json": {
+      "bytes": 299,
+      "sha256": "14d1b14d18e9ff0de142f20cfb078e9ba162cc3c7d3aa1a8d113c91c84767804"
+    },
+    "tests/fixtures/stress-cams-2025-100p.pdf": {
+      "bytes": 361276,
+      "sha256": "2bf4bcdb2747aae737f3fff38eb814322c89831789b0ae0223152bcd10388ddf"
+    },
+    "tests/fixtures/stress-cams-2025-100p.golden.json": {
+      "bytes": 35684,
+      "sha256": "d44a36251c0324092f6c5fefbf563e171bc930c9f3b74bd05a74cff8e2e51558"
+    },
+    "tests/fixtures/stress-cams-2025-100p.meta.json": {
+      "bytes": 295,
+      "sha256": "08ee378d37a21708a5e64976aaf0d3639ab0262a520ee26aff27a58d39ee1024"
+    },
+    "tests/fixtures/cams-2024-protected.pdf": {
+      "bytes": 8269,
+      "sha256": "80a0e5184689e1abe71ef53694a249d60f99526df18de6b649affac295078ed2"
+    },
+    "tests/fixtures/cams-2024-protected.golden.json": {
+      "bytes": 56440,
+      "sha256": "bc91e706c957b50712eb6137f6606c68b8b5adc07e50a0a6a34ba638ef9e07b3"
+    },
+    "tests/fixtures/cams-2024-protected.meta.json": {
+      "bytes": 344,
+      "sha256": "ccbbac941f650031876f3c042ba024a7c7583366986257b1753c09f393d526bf"
+    },
+    "tests/fixtures/cams-2024-owner-locked.pdf": {
+      "bytes": 8273,
+      "sha256": "ca7998196832640071f60a5c8f9ec6eebebae7d8504e00fb61ed5458b582658a"
+    },
+    "tests/fixtures/cams-2024-owner-locked.golden.json": {
+      "bytes": 56420,
+      "sha256": "3c85dea29113e8acca7a2c536d413bb18d02b751147a1bd756c58eb9a7c85b44"
+    },
+    "tests/fixtures/cams-2024-owner-locked.meta.json": {
+      "bytes": 321,
+      "sha256": "41256c123dba3dcf17cdc99a5876a1d81d74cc0d7dfc14c4faf4f23a239e5376"
+    },
+    "tests/fixtures/cams-2025-summary.pdf": {
+      "bytes": 2649,
+      "sha256": "3ed28c96aa04378e31c8ecea1a3385d5727ceea956fd6b38f8d65ee42be78008"
+    },
+    "tests/fixtures/cams-2025-summary.golden.json": {
+      "bytes": 680,
+      "sha256": "c7053dec3406e72ce364dfd267218e10c9e86958e3dd053ffb044189dad135ba"
+    },
+    "tests/fixtures/cams-2025-summary.meta.json": {
+      "bytes": 291,
+      "sha256": "dd3303566845ef1cadb5194d32902ce737a946c6220ed1e1c685f7ce51761154"
+    },
+    "tests/fixtures/kfin-2025-summary.pdf": {
+      "bytes": 2551,
+      "sha256": "b42100f0ae99d7e314a056eca46b6e281fb6260dfd1491e47c61a2e2614a5369"
+    },
+    "tests/fixtures/kfin-2025-summary.golden.json": {
+      "bytes": 522,
+      "sha256": "6611b988d90556254d29e5a831b6c70f0b91c2aea3fc98b8de1ec565c1d44abc"
+    },
+    "tests/fixtures/kfin-2025-summary.meta.json": {
+      "bytes": 291,
+      "sha256": "f18eeddda769f10eb3eafa5ad90e7e327b763b976dba4c3f466a749348b65759"
+    },
+    "tests/fixtures/nsdl-2025-depository.pdf": {
+      "bytes": 2789,
+      "sha256": "196bb26654235783d5e009c7f033676ba9f5155f72ac05e801bd00ce5cf48e4c"
+    },
+    "tests/fixtures/nsdl-2025-depository.golden.json": {
+      "bytes": 488,
+      "sha256": "4533c7ec27dcf6db02569f5e9014634ea3b9a82d2051e8e6655bdf6f6dd0f242"
+    },
+    "tests/fixtures/nsdl-2025-depository.meta.json": {
+      "bytes": 300,
+      "sha256": "e743cdc2d5f874b396b9469799d61f045ac73ef1922db2f74d856d6148c7be91"
+    },
+    "tests/fixtures/cdsl-2025-depository.pdf": {
+      "bytes": 2796,
+      "sha256": "005aef834b25278ac4be27c226d6187cf9361c68077a6bd4a55764750d810f69"
+    },
+    "tests/fixtures/cdsl-2025-depository.golden.json": {
+      "bytes": 389,
+      "sha256": "39526836fa956d519a010346fe1d17b9fe7fd046f883cf0a86a7a78ab3a4225a"
+    },
+    "tests/fixtures/cdsl-2025-depository.meta.json": {
+      "bytes": 300,
+      "sha256": "99c41d5ce5e3ece90a4aa6a309a045812ba2bc7b8c303dc38f7f5754158c85e0"
+    },
+    "tests/fixtures/scanned-2025.pdf": {
+      "bytes": 3719,
+      "sha256": "2c2cfa1a86857115f5d61771045da590eb208422a94f7c0cabd31a76f6f88ac3"
+    },
+    "tests/fixtures/scanned-2025.golden.json": {
+      "bytes": 386,
+      "sha256": "de7eb85b2f0b1dc07913f255dc3714d1e90782a22e80f059df6d2285c1daaaa3"
+    },
+    "tests/fixtures/scanned-2025.meta.json": {
+      "bytes": 282,
+      "sha256": "1a3bbb86065d2c59d13efc700c4845c6843b8ff35bfe9e98eaed51ea007098c7"
+    },
+    "tests/fixtures/not-cas-bank-statement.pdf": {
+      "bytes": 2292,
+      "sha256": "ea6aa3935865f13e1a0449874f6a6effc7dfac196e2c906b81ee224642f228c1"
+    },
+    "tests/fixtures/not-cas-bank-statement.golden.json": {
+      "bytes": 380,
+      "sha256": "b7a5ee39bf517dfb8d4e4697b11cfe30e903a828ab455b89bb94e58719599bf6"
+    },
+    "tests/fixtures/not-cas-bank-statement.meta.json": {
+      "bytes": 292,
+      "sha256": "6fafebd32a96e31c564d027d8fcd503dd20dbb53cef3cfc28817b88f52c80a53"
+    },
+    "tests/fixtures/not-cas-cams-letter.pdf": {
+      "bytes": 2529,
+      "sha256": "4b64cd6c458d53fc8d188c819b20f1152c499a000537ac588b8aae9dbadcb8f7"
+    },
+    "tests/fixtures/not-cas-cams-letter.golden.json": {
+      "bytes": 431,
+      "sha256": "e85c45a40c2359bd171c02405cab5b6700a8a47634d6a9b1e8de3fd08d82ada9"
+    },
+    "tests/fixtures/not-cas-cams-letter.meta.json": {
+      "bytes": 293,
+      "sha256": "f1f07da7da1c328a83fd1a1f98f243d349278c6b4cdd18275f7bf8a1f1b873f8"
+    },
+    "tests/fixtures/not-a-pdf.pdf": {
+      "bytes": 99,
+      "sha256": "cf007146440b2668420d94ab70de814405fbf3a3022766b558eaf99118ec4b47"
+    },
+    "tests/fixtures/not-a-pdf.golden.json": {
+      "bytes": 384,
+      "sha256": "ae3d6869020ca78a36ad9129bf44e02fbaee2845e0fd2a5e297ccef744b14a07"
+    },
+    "tests/fixtures/not-a-pdf.meta.json": {
+      "bytes": 277,
+      "sha256": "8cbf98f788dc02f92d39eaa34d6466102c90b1157117c6b45d46aca9c353c903"
+    },
+    "public/sample-cas.pdf": {
+      "bytes": 36717,
+      "sha256": "30770115d10f5fcf9aed93bbee7f6be383a71cb8cbeb1c310a03b12e497d811d"
+    },
+    "tests/fixtures/sample-cas.golden.json": {
+      "bytes": 497267,
+      "sha256": "15847300202598da41977b3cd09b2cebb839806563f77f51ddcbeaa8e4bbb692"
+    },
+    "tests/fixtures/sample-cas.meta.json": {
+      "bytes": 282,
+      "sha256": "3c490013cd4d519c06d0ed60935cbb2640e6ce87a71f1fe973cd63de32b59059"
+    },
+    "tests/fixtures/benchmarkNav.fixture.json": {
+      "bytes": 47584,
+      "sha256": "5daf108a0593fd415e152782b31f4cedcbbcc7bad77701d3113a585dd5eb549c"
+    },
+    "tests/fixtures/isinCategory.fixture.json": {
+      "bytes": 2845,
+      "sha256": "00e12855e5a723d4f0be279725962d3a6ebea832f9a7866a094ba1b2a614f93f"
+    }
+  }
+}

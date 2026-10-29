@@ -1,0 +1,1092 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2025-growth-15f-2000t.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-07","US-12","US-13","US-17"],
+  "edges": [
+    "E44 (growth scenario of 02-database-design.md §6)"
+  ],
+  "notes": "The growth scenario: ten years, fifteen funds, about two thousand transaction rows (SIP instalments plus their stamp-duty rows), roughly fifty pages.",
+  "expect": "result",
+  "digest": true,
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2025-09-30",
+      "statementPeriod": {
+        "from": "2015-10-01",
+        "to": "2025-09-30"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01LC6",
+          "isin": "INF000S01LC6",
+          "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 13313.364,
+              "closingNav": 89.1108,
+              "closingValue": 1186364.52,
+              "transactions": {
+                "count": 182,
+                "sha256": "e7b4f2548cf652ffc112cd85143cbac52f22a12ddb061c585f908a60f6a873e3"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 13313.364,
+                "printedClosingUnits": 13313.364,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 13313.364,
+          "closingNav": 89.1108,
+          "closingValue": 1186364.52,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01FL9",
+          "isin": "INF000S01FL9",
+          "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 5604.791,
+              "closingNav": 297.2218,
+              "closingValue": 1665866.07,
+              "transactions": {
+                "count": 180,
+                "sha256": "ed482becc035f323dd87e7981697e5a1a19efd5050ec6420a9eec79d2c6edfad"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 5604.791,
+                "printedClosingUnits": 5604.791,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 5604.791,
+          "closingNav": 297.2218,
+          "closingValue": 1665866.07,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01MD2",
+          "isin": "INF000S01MD2",
+          "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 2601.252,
+              "closingNav": 315.8339,
+              "closingValue": 821563.56,
+              "transactions": {
+                "count": 182,
+                "sha256": "6072c623d7447fe2c7895ab42111906abc2504c74c03993684f684edb3551ee9"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 2601.252,
+                "printedClosingUnits": 2601.252,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 2601.252,
+          "closingNav": 315.8339,
+          "closingValue": 821563.56,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01EL2",
+          "isin": "INF000S01EL2",
+          "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 7613.465,
+              "closingNav": 165.6155,
+              "closingValue": 1260907.81,
+              "transactions": {
+                "count": 182,
+                "sha256": "4198e1063059d80c529b059c90d18ebc19cf2a542c830477a74f3c157f3b2964"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 7613.465,
+                "printedClosingUnits": 7613.465,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 7613.465,
+          "closingNav": 165.6155,
+          "closingValue": 1260907.81,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01IX8",
+          "isin": "INF000S01IX8",
+          "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 7174.103,
+              "closingNav": 277.2115,
+              "closingValue": 1988743.85,
+              "transactions": {
+                "count": 168,
+                "sha256": "c8597b96988fd31c960aeb78b54353faa73e661121ecf497d064178e265c1d90"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 7174.103,
+                "printedClosingUnits": 7174.103,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 7174.103,
+          "closingNav": 277.2115,
+          "closingValue": 1988743.85,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01BA1",
+          "isin": "INF000S01BA1",
+          "schemeName": "Lens Sample Balanced Advantage Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 10480.557,
+              "closingNav": 65.2028,
+              "closingValue": 683361.66,
+              "transactions": {
+                "count": 165,
+                "sha256": "1dab8826fed579f85434ea43a642551ec1aeff30a9cbeee43b08336ef3a2fef1"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 10480.557,
+                "printedClosingUnits": 10480.557,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 10480.557,
+          "closingNav": 65.2028,
+          "closingValue": 683361.66,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01AG0",
+          "isin": "INF000S01AG0",
+          "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 1818.616,
+              "closingNav": 594.4574,
+              "closingValue": 1081089.74,
+              "transactions": {
+                "count": 157,
+                "sha256": "7772608c8383f41ee392ddfc526126d12d47dbd8c8d7f1bb064f8295934de0ef"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 1818.616,
+                "printedClosingUnits": 1818.616,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 1818.616,
+          "closingNav": 594.4574,
+          "closingValue": 1081089.74,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01LQ6",
+          "isin": "INF000S01LQ6",
+          "schemeName": "Lens Sample Liquid Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "3223310729 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 4.535,
+              "closingNav": 4641.4219,
+              "closingValue": 21048.85,
+              "transactions": {
+                "count": 3,
+                "sha256": "659fd67f073018594c100dc522d3b7b6f7db4a5ee08b64ba901a25153e4ef2dd"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 4.535,
+                "printedClosingUnits": 4.535,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4.535,
+          "closingNav": 4641.4219,
+          "closingValue": 21048.85,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01SM0",
+          "isin": "INF000S01SM0",
+          "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 4129.804,
+              "closingNav": 132.684,
+              "closingValue": 547958.91,
+              "transactions": {
+                "count": 168,
+                "sha256": "b103e9cbd636659e36389cc55e6a9e794a6153c0a7c60f803bfb6c536d3b641e"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 4129.804,
+                "printedClosingUnits": 4129.804,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4129.804,
+          "closingNav": 132.684,
+          "closingValue": 547958.91,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01FO3",
+          "isin": "INF000S01FO3",
+          "schemeName": "Lens Sample Focused Equity Fund - Direct Plan - Growth",
+          "amc": "Orbit Sample Asset Managers",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 5958.279,
+              "closingNav": 67.3428,
+              "closingValue": 401247.19,
+              "transactions": {
+                "count": 163,
+                "sha256": "c193c4b712c1d5cec18eae3497f264b5842ecdef1ae9a1e988ae52b294fb3e6e"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 5958.279,
+                "printedClosingUnits": 5958.279,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 5958.279,
+          "closingNav": 67.3428,
+          "closingValue": 401247.19,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01DY7",
+          "isin": "INF000S01DY7",
+          "schemeName": "Lens Sample Dividend Yield Fund - Direct Plan - Growth",
+          "amc": "Orbit Sample Asset Managers",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 1616.94,
+              "closingNav": 89.8901,
+              "closingValue": 145346.9,
+              "transactions": {
+                "count": 1,
+                "sha256": "5c85b625089f17f38c12dcaad35624c557d97076c990d53970e249dac755579c"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 1616.94,
+                "printedClosingUnits": 1616.94,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 1616.94,
+          "closingNav": 89.8901,
+          "closingValue": 145346.9,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01CB7",
+          "isin": "INF000S01CB7",
+          "schemeName": "Lens Sample Corporate Bond Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 9583.562,
+              "closingNav": 54.5829,
+              "closingValue": 523098.61,
+              "transactions": {
+                "count": 1,
+                "sha256": "9b20d89dc78037ee4345ca760ceaf9e4bb5b7f2f6cdd3191ccc361dc9736739a"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 9583.562,
+                "printedClosingUnits": 9583.562,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 9583.562,
+          "closingNav": 54.5829,
+          "closingValue": 523098.61,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01IN9",
+          "isin": "INF000S01IN9",
+          "schemeName": "Lens Sample US Equity Fund of Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 1515.782,
+              "closingNav": 151.5076,
+              "closingValue": 229652.49,
+              "transactions": {
+                "count": 132,
+                "sha256": "0129116c01e905fd14f36380b0f6c1d179593b8e9a3fab001a3e82657dcf4273"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 1515.782,
+                "printedClosingUnits": 1515.782,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 1515.782,
+          "closingNav": 151.5076,
+          "closingValue": 229652.49,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01GD4",
+          "isin": "INF000S01GD4",
+          "schemeName": "Lens Sample Gold Fund of Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 4757.299,
+              "closingNav": 55.079,
+              "closingValue": 262027.27,
+              "transactions": {
+                "count": 163,
+                "sha256": "46084c0248f722ba557689d751df2cb0ff1a8b6966de498a9f292843d7981110"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 4757.299,
+                "printedClosingUnits": 4757.299,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4757.299,
+          "closingNav": 55.079,
+          "closingValue": 262027.27,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01MA8",
+          "isin": "INF000S01MA8",
+          "schemeName": "Lens Sample Multi Asset Allocation Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "4185776974 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 5175.632,
+              "closingNav": 38.2356,
+              "closingValue": 197893.39,
+              "transactions": {
+                "count": 114,
+                "sha256": "ceb48e6c0be301264d0afd402028d19fb6d29623b95328783624c3504048b9e7"
+              },
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 5175.632,
+                "printedClosingUnits": 5175.632,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 5175.632,
+          "closingNav": 38.2356,
+          "closingValue": 197893.39,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 29,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01LC6": "ok",
+      "INF000S01FL9": "ok",
+      "INF000S01MD2": "ok",
+      "INF000S01EL2": "ok",
+      "INF000S01IX8": "ok",
+      "INF000S01BA1": "ok",
+      "INF000S01AG0": "ok",
+      "INF000S01LQ6": "ok",
+      "INF000S01SM0": "ok",
+      "INF000S01FO3": "ok",
+      "INF000S01DY7": "ok",
+      "INF000S01CB7": "ok",
+      "INF000S01IN9": "ok",
+      "INF000S01GD4": "ok",
+      "INF000S01MA8": "ok"
+    },
+    "stats": {
+      "pages": 29,
+      "rows": 2193,
+      "transactions": 1961,
+      "unclassified": 0,
+      "folios": 15,
+      "funds": 15,
+      "extractMs": 0,
+      "parseMs": 0
+    },
+    "digest": {
+      "algorithm": "sha256",
+      "canonical": "date\u001fkind\u001famount\u001funits\u001fnav\u001funitBalance\u001fdescription\u001fpage\u001fattachedTo\u001freverses, one line per transaction"
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2025-09-30",
+      "totalInvested": 5925000,
+      "totalRedeemed": 543247.59,
+      "valueAsOfStatementDate": 11016170.82,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 11016170.82,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 13.9388,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01LC6": {
+        "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+        "closingUnits": 13313.364,
+        "closingNav": 89.1108,
+        "closingValue": 1186364.52,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 595000,
+        "redeemed": 0,
+        "netInvested": 595000,
+        "terminalValue": 1186364.52,
+        "cashflowCount": 119,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 13.4077,
+          "method": "newton"
+        }
+      },
+      "INF000S01FL9": {
+        "schemeName": "Lens Sample Flexi Cap Fund - Direct Plan - Growth",
+        "closingUnits": 5604.791,
+        "closingNav": 297.2218,
+        "closingValue": 1665866.07,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 585000,
+        "redeemed": 0,
+        "netInvested": 585000,
+        "terminalValue": 1665866.07,
+        "cashflowCount": 117,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 20.5,
+          "method": "bisection"
+        }
+      },
+      "INF000S01MD2": {
+        "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+        "closingUnits": 2601.252,
+        "closingNav": 315.8339,
+        "closingValue": 821563.56,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 357000,
+        "redeemed": 0,
+        "netInvested": 357000,
+        "terminalValue": 821563.56,
+        "cashflowCount": 119,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 16.1183,
+          "method": "newton"
+        }
+      },
+      "INF000S01EL2": {
+        "schemeName": "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth",
+        "closingUnits": 7613.465,
+        "closingNav": 165.6155,
+        "closingValue": 1260907.81,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 595000,
+        "redeemed": 0,
+        "netInvested": 595000,
+        "terminalValue": 1260907.81,
+        "cashflowCount": 119,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 14.5264,
+          "method": "newton"
+        }
+      },
+      "INF000S01IX8": {
+        "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+        "closingUnits": 7174.103,
+        "closingNav": 277.2115,
+        "closingValue": 1988743.85,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 1050000,
+        "redeemed": 0,
+        "netInvested": 1050000,
+        "terminalValue": 1988743.85,
+        "cashflowCount": 105,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 14.198,
+          "method": "newton"
+        }
+      },
+      "INF000S01BA1": {
+        "schemeName": "Lens Sample Balanced Advantage Fund - Direct Plan - Growth",
+        "closingUnits": 10480.557,
+        "closingNav": 65.2028,
+        "closingValue": 683361.66,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 408000,
+        "redeemed": 0,
+        "netInvested": 408000,
+        "terminalValue": 683361.66,
+        "cashflowCount": 102,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 11.8601,
+          "method": "newton"
+        }
+      },
+      "INF000S01AG0": {
+        "schemeName": "Lens Sample Aggressive Hybrid Fund - Direct Plan - Growth",
+        "closingUnits": 1818.616,
+        "closingNav": 594.4574,
+        "closingValue": 1081089.74,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 386000,
+        "redeemed": 0,
+        "netInvested": 386000,
+        "terminalValue": 1081089.74,
+        "cashflowCount": 94,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 14.7976,
+          "method": "newton"
+        }
+      },
+      "INF000S01LQ6": {
+        "schemeName": "Lens Sample Liquid Fund - Direct Plan - Growth",
+        "closingUnits": 4.535,
+        "closingNav": 4641.4219,
+        "closingValue": 21048.85,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 500000,
+        "redeemed": 543247.59,
+        "netInvested": -43247.59,
+        "terminalValue": 21048.85,
+        "cashflowCount": 3,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 6.8463,
+          "method": "newton"
+        }
+      },
+      "INF000S01SM0": {
+        "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+        "closingUnits": 4129.804,
+        "closingNav": 132.684,
+        "closingValue": 547958.91,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 315000,
+        "redeemed": 0,
+        "netInvested": 315000,
+        "terminalValue": 547958.91,
+        "cashflowCount": 105,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 12.3346,
+          "method": "newton"
+        }
+      },
+      "INF000S01FO3": {
+        "schemeName": "Lens Sample Focused Equity Fund - Direct Plan - Growth",
+        "closingUnits": 5958.279,
+        "closingNav": 67.3428,
+        "closingValue": 401247.19,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 250000,
+        "redeemed": 0,
+        "netInvested": 250000,
+        "terminalValue": 401247.19,
+        "cashflowCount": 100,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 11.1213,
+          "method": "newton"
+        }
+      },
+      "INF000S01DY7": {
+        "schemeName": "Lens Sample Dividend Yield Fund - Direct Plan - Growth",
+        "closingUnits": 1616.94,
+        "closingNav": 89.8901,
+        "closingValue": 145346.9,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 75000,
+        "redeemed": 0,
+        "netInvested": 75000,
+        "terminalValue": 145346.9,
+        "cashflowCount": 1,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 10.4805,
+          "method": "bisection"
+        }
+      },
+      "INF000S01CB7": {
+        "schemeName": "Lens Sample Corporate Bond Fund - Direct Plan - Growth",
+        "closingUnits": 9583.562,
+        "closingNav": 54.5829,
+        "closingValue": 523098.61,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 300000,
+        "redeemed": 0,
+        "netInvested": 300000,
+        "terminalValue": 523098.61,
+        "cashflowCount": 1,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 8.0122,
+          "method": "newton"
+        }
+      },
+      "INF000S01IN9": {
+        "schemeName": "Lens Sample US Equity Fund of Fund - Direct Plan - Growth",
+        "closingUnits": 1515.782,
+        "closingNav": 151.5076,
+        "closingValue": 229652.49,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 138000,
+        "redeemed": 0,
+        "netInvested": 138000,
+        "terminalValue": 229652.49,
+        "cashflowCount": 69,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 17.7674,
+          "method": "newton"
+        }
+      },
+      "INF000S01GD4": {
+        "schemeName": "Lens Sample Gold Fund of Fund - Direct Plan - Growth",
+        "closingUnits": 4757.299,
+        "closingNav": 55.079,
+        "closingValue": 262027.27,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 200000,
+        "redeemed": 0,
+        "netInvested": 200000,
+        "terminalValue": 262027.27,
+        "cashflowCount": 100,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 6.3886,
+          "method": "newton"
+        }
+      },
+      "INF000S01MA8": {
+        "schemeName": "Lens Sample Multi Asset Allocation Fund - Direct Plan - Growth",
+        "closingUnits": 5175.632,
+        "closingNav": 38.2356,
+        "closingValue": 197893.39,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 171000,
+        "redeemed": 0,
+        "netInvested": 171000,
+        "terminalValue": 197893.39,
+        "cashflowCount": 57,
+        "ignoredCount": 0,
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 6.153,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01LC6",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2015-11-10",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2015-11-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 119,
+            "made": 119,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01FL9",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2016-01-11",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2016-01-11",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 117,
+            "made": 117,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01MD2",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2015-11-10",
+              "amount": 3000
+            }
+          ],
+          "firstDate": "2015-11-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 119,
+            "made": 119,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01EL2",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2015-11-05",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2015-11-05",
+          "lastObserved": "2025-09-05",
+          "counts": {
+            "expected": 119,
+            "made": 119,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01IX8",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-01-10",
+              "amount": 10000
+            }
+          ],
+          "firstDate": "2017-01-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 105,
+            "made": 105,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01BA1",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-04-10",
+              "amount": 4000
+            }
+          ],
+          "firstDate": "2017-04-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 102,
+            "made": 102,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01AG0",
+          "folioNumber": "3223310729 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2018-01-10",
+              "amount": 2000
+            }
+          ],
+          "firstDate": "2018-01-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 93,
+            "made": 93,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01SM0",
+          "folioNumber": "4185776974 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-01-10",
+              "amount": 3000
+            }
+          ],
+          "firstDate": "2017-01-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 105,
+            "made": 105,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01FO3",
+          "folioNumber": "4185776974 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-06-12",
+              "amount": 2500
+            }
+          ],
+          "firstDate": "2017-06-12",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 100,
+            "made": 100,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01IN9",
+          "folioNumber": "4185776974 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2020-01-10",
+              "amount": 2000
+            }
+          ],
+          "firstDate": "2020-01-10",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 69,
+            "made": 69,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01GD4",
+          "folioNumber": "4185776974 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-06-12",
+              "amount": 2000
+            }
+          ],
+          "firstDate": "2017-06-12",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 100,
+            "made": 100,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        },
+        {
+          "fundId": "INF000S01MA8",
+          "folioNumber": "4185776974 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2021-01-11",
+              "amount": 3000
+            }
+          ],
+          "firstDate": "2021-01-11",
+          "lastObserved": "2025-09-10",
+          "counts": {
+            "expected": 57,
+            "made": 57,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

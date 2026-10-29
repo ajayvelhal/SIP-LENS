@@ -1,0 +1,12 @@
+{
+  "fixture": "scanned-2025.pdf",
+  "kind": "scanned",
+  "expect": "NO_TEXT",
+  "pageCount": 2,
+  "bytes": 3719,
+  "sha256": "2c2cfa1a86857115f5d61771045da590eb208422a94f7c0cabd31a76f6f88ac3",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

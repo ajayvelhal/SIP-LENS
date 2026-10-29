@@ -1,0 +1,3629 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2025-fully-redeemed.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-13","US-14","US-17","US-27"],
+  "edges": ["E25","E27","E37"],
+  "notes": "SMALL fully redeemed (zero closing balance, XIRR without terminal); INDEX held in two folios (one Fund, two Folios; index fund tracks the fixture benchmark exactly).",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2025-03-31",
+      "statementPeriod": {
+        "from": "2017-01-01",
+        "to": "2025-03-31"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01SM0",
+          "isin": "INF000S01SM0",
+          "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "7613460650 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 0,
+              "closingNav": 173.3802,
+              "closingValue": 0,
+              "transactions": [
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-02-10",
+                  "description": "Systematic Investment (1)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 73.568,
+                  "nav": 40.7787,
+                  "unitBalance": 73.568,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-03-10",
+                  "description": "Systematic Investment (2)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 58.923,
+                  "nav": 50.9136,
+                  "unitBalance": 132.491,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-04-10",
+                  "description": "Systematic Investment (3)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 60.622,
+                  "nav": 49.4872,
+                  "unitBalance": 193.113,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-05-10",
+                  "description": "Systematic Investment (4)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 64.373,
+                  "nav": 46.6032,
+                  "unitBalance": 257.486,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-06-12",
+                  "description": "Systematic Investment (5)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 62.837,
+                  "nav": 47.7429,
+                  "unitBalance": 320.323,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-07-10",
+                  "description": "Systematic Investment (6)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 65.09,
+                  "nav": 46.0898,
+                  "unitBalance": 385.413,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-08-10",
+                  "description": "Systematic Investment (7)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 64.989,
+                  "nav": 46.1617,
+                  "unitBalance": 450.402,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-09-11",
+                  "description": "Systematic Investment (8)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 65.555,
+                  "nav": 45.7633,
+                  "unitBalance": 515.957,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:8",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-10-10",
+                  "description": "Systematic Investment (9)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 69.786,
+                  "nav": 42.9883,
+                  "unitBalance": 585.743,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:9",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-11-10",
+                  "description": "Systematic Investment (10)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 73.093,
+                  "nav": 41.0435,
+                  "unitBalance": 658.836,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:10",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2017-12-11",
+                  "description": "Systematic Investment (11)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 64.462,
+                  "nav": 46.5391,
+                  "unitBalance": 723.298,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:11",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-01-10",
+                  "description": "Systematic Investment (12)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 65.02,
+                  "nav": 46.1396,
+                  "unitBalance": 788.318,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:12",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-02-12",
+                  "description": "Systematic Investment (13)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 59.409,
+                  "nav": 50.4975,
+                  "unitBalance": 847.727,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:13",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-03-12",
+                  "description": "Systematic Investment (14)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 56.259,
+                  "nav": 53.3248,
+                  "unitBalance": 903.986,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:14",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-04-10",
+                  "description": "Systematic Investment (15)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 54.228,
+                  "nav": 55.3215,
+                  "unitBalance": 958.214,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:15",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-05-10",
+                  "description": "Systematic Investment (16)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 61.289,
+                  "nav": 48.9483,
+                  "unitBalance": 1019.503,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:16",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-06-11",
+                  "description": "Systematic Investment (17)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 59.557,
+                  "nav": 50.3723,
+                  "unitBalance": 1079.06,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:17",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-07-10",
+                  "description": "Systematic Investment (18)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 55.641,
+                  "nav": 53.9167,
+                  "unitBalance": 1134.701,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:18",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-08-10",
+                  "description": "Systematic Investment (19)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 55.053,
+                  "nav": 54.4931,
+                  "unitBalance": 1189.754,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:19",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-09-10",
+                  "description": "Systematic Investment (20)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 56.063,
+                  "nav": 53.511,
+                  "unitBalance": 1245.817,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:20",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-10-10",
+                  "description": "Systematic Investment (21)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 51.58,
+                  "nav": 58.162,
+                  "unitBalance": 1297.397,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:21",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-11-12",
+                  "description": "Systematic Investment (22)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 50.011,
+                  "nav": 59.9866,
+                  "unitBalance": 1347.408,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:22",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2018-12-10",
+                  "description": "Systematic Investment (23)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 51.756,
+                  "nav": 57.9645,
+                  "unitBalance": 1399.164,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:23",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-01-10",
+                  "description": "Systematic Investment (24)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 47.969,
+                  "nav": 62.5407,
+                  "unitBalance": 1447.133,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:24",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-02-11",
+                  "description": "Systematic Investment (25)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 46.087,
+                  "nav": 65.0948,
+                  "unitBalance": 1493.22,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:25",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-03-11",
+                  "description": "Systematic Investment (26)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 45.398,
+                  "nav": 66.0823,
+                  "unitBalance": 1538.618,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:26",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-04-10",
+                  "description": "Systematic Investment (27)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 39.561,
+                  "nav": 75.8321,
+                  "unitBalance": 1578.179,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:27",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-05-10",
+                  "description": "Systematic Investment (28)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 40.875,
+                  "nav": 73.3946,
+                  "unitBalance": 1619.054,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:28",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-06-10",
+                  "description": "Systematic Investment (29)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 39.701,
+                  "nav": 75.565,
+                  "unitBalance": 1658.755,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:29",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-07-10",
+                  "description": "Systematic Investment (30)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 41.414,
+                  "nav": 72.4394,
+                  "unitBalance": 1700.169,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:30",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-08-12",
+                  "description": "Systematic Investment (31)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 42.973,
+                  "nav": 69.8119,
+                  "unitBalance": 1743.142,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:31",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-09-10",
+                  "description": "Systematic Investment (32)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 46.695,
+                  "nav": 64.2471,
+                  "unitBalance": 1789.837,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:32",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-10-10",
+                  "description": "Systematic Investment (33)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 47.181,
+                  "nav": 63.5848,
+                  "unitBalance": 1837.018,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:33",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-11-11",
+                  "description": "Systematic Investment (34)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 45.112,
+                  "nav": 66.5013,
+                  "unitBalance": 1882.13,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:34",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2019-12-10",
+                  "description": "Systematic Investment (35)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 49.311,
+                  "nav": 60.8385,
+                  "unitBalance": 1931.441,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:35",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-01-10",
+                  "description": "Systematic Investment (36)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 42.47,
+                  "nav": 70.6375,
+                  "unitBalance": 1973.911,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:36",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-02-10",
+                  "description": "Systematic Investment (37)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 40.591,
+                  "nav": 73.9087,
+                  "unitBalance": 2014.502,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:37",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-03-10",
+                  "description": "Systematic Investment (38)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 89.188,
+                  "nav": 33.6368,
+                  "unitBalance": 2103.69,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:38",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-04-10",
+                  "description": "Systematic Investment (39)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 104.42,
+                  "nav": 28.7301,
+                  "unitBalance": 2208.11,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:39",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-05-11",
+                  "description": "Systematic Investment (40)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 87.448,
+                  "nav": 34.3061,
+                  "unitBalance": 2295.558,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:40",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-06-10",
+                  "description": "Systematic Investment (41)",
+                  "kind": "sip",
+                  "amount": 3000,
+                  "units": 78.561,
+                  "nav": 38.1869,
+                  "unitBalance": 2374.119,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:41",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-07-10",
+                  "description": "Systematic Investment (42)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 71.132,
+                  "nav": 42.1729,
+                  "unitBalance": 2445.251,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:42"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:42",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:41",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:43",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-08-10",
+                  "description": "Systematic Investment (43)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 55.78,
+                  "nav": 53.7796,
+                  "unitBalance": 2501.031,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:44"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:44",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:43",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:45",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-09-10",
+                  "description": "Systematic Investment (44)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 56.327,
+                  "nav": 53.2576,
+                  "unitBalance": 2557.358,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:46"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:46",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:45",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:47",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-10-12",
+                  "description": "Systematic Investment (45)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 44.033,
+                  "nav": 68.1273,
+                  "unitBalance": 2601.391,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:48"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:48",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:47",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:49",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-11-10",
+                  "description": "Systematic Investment (46)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 38.852,
+                  "nav": 77.2118,
+                  "unitBalance": 2640.243,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:50"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:50",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:49",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:51",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-12-10",
+                  "description": "Systematic Investment (47)",
+                  "kind": "sip",
+                  "amount": 2999.85,
+                  "units": 33.007,
+                  "nav": 90.8844,
+                  "unitBalance": 2673.25,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:52"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:52",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.15,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:51",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:53",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2021-11-22",
+                  "description": "Redemption - via Online",
+                  "kind": "redemption",
+                  "amount": -299536.86,
+                  "units": -2673.25,
+                  "nav": 112.0497,
+                  "unitBalance": 0,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01SM0:7613460650 / 0:54"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01SM0:7613460650 / 0:54",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01SM0",
+                  "date": "2021-11-22",
+                  "description": "*** STT Paid ***",
+                  "kind": "stt_tds",
+                  "amount": 3,
+                  "page": 1,
+                  "attachedTo": "INF000S01SM0:7613460650 / 0:53",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 0,
+                "printedClosingUnits": 0,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 0,
+          "closingNav": 173.3802,
+          "closingValue": 0,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01IX8",
+          "isin": "INF000S01IX8",
+          "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+          "amc": "Meridian Sample AMC",
+          "folios": [
+            {
+              "folioNumber": "7613460650 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 3359.996,
+              "closingNav": 308.2949,
+              "closingValue": 1035869.63,
+              "transactions": [
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-04-10",
+                  "description": "Systematic Investment (1)",
+                  "kind": "sip",
+                  "amount": 10000,
+                  "units": 138.622,
+                  "nav": 72.1384,
+                  "unitBalance": 138.622,
+                  "page": 2,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-05-11",
+                  "description": "Systematic Investment (2)",
+                  "kind": "sip",
+                  "amount": 10000,
+                  "units": 124.375,
+                  "nav": 80.4019,
+                  "unitBalance": 262.997,
+                  "page": 2,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-06-10",
+                  "description": "Systematic Investment (3)",
+                  "kind": "sip",
+                  "amount": 10000,
+                  "units": 116.534,
+                  "nav": 85.8116,
+                  "unitBalance": 379.531,
+                  "page": 2,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-07-10",
+                  "description": "Systematic Investment (4)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 102.721,
+                  "nav": 97.3465,
+                  "unitBalance": 482.252,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:4"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:3",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-08-10",
+                  "description": "Systematic Investment (5)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 87.68,
+                  "nav": 114.0457,
+                  "unitBalance": 569.932,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:6"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:5",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-09-10",
+                  "description": "Systematic Investment (6)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 90.12,
+                  "nav": 110.9577,
+                  "unitBalance": 660.052,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:8"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:8",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:7",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:9",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-10-12",
+                  "description": "Systematic Investment (7)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 74.195,
+                  "nav": 134.7731,
+                  "unitBalance": 734.247,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:10"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:10",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:9",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:11",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-11-10",
+                  "description": "Systematic Investment (8)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 64.199,
+                  "nav": 155.7577,
+                  "unitBalance": 798.446,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:12"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:12",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:11",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:13",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-12-10",
+                  "description": "Systematic Investment (9)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 58.755,
+                  "nav": 170.1907,
+                  "unitBalance": 857.201,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:14"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:14",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:13",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:15",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-01-11",
+                  "description": "Systematic Investment (10)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 56.331,
+                  "nav": 177.5125,
+                  "unitBalance": 913.532,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:16"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:16",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-01-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:15",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:17",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-02-10",
+                  "description": "Systematic Investment (11)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 55.909,
+                  "nav": 178.8545,
+                  "unitBalance": 969.441,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:18"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:18",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:17",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:19",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-03-10",
+                  "description": "Systematic Investment (12)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.253,
+                  "nav": 191.3664,
+                  "unitBalance": 1021.694,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:20"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:20",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:19",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:21",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-04-12",
+                  "description": "Systematic Investment (13)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.806,
+                  "nav": 189.3616,
+                  "unitBalance": 1074.5,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:22"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:22",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-04-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:21",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:23",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-05-10",
+                  "description": "Systematic Investment (14)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 53.219,
+                  "nav": 187.8925,
+                  "unitBalance": 1127.719,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:24"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:24",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:23",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:25",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-06-10",
+                  "description": "Systematic Investment (15)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 51.972,
+                  "nav": 192.4026,
+                  "unitBalance": 1179.691,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:26"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:26",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:25",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:27",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-07-12",
+                  "description": "Systematic Investment (16)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.656,
+                  "nav": 189.9038,
+                  "unitBalance": 1232.347,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:28"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:28",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-07-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:27",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:29",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-08-10",
+                  "description": "Systematic Investment (17)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.277,
+                  "nav": 191.2791,
+                  "unitBalance": 1284.624,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:30"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:30",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:29",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:31",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-09-10",
+                  "description": "Systematic Investment (18)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 50.892,
+                  "nav": 196.4834,
+                  "unitBalance": 1335.516,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:32"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:32",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:31",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:33",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-10-11",
+                  "description": "Systematic Investment (19)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.925,
+                  "nav": 188.9365,
+                  "unitBalance": 1388.441,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:34"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:34",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-10-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:33",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:35",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-11-10",
+                  "description": "Systematic Investment (20)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.497,
+                  "nav": 190.477,
+                  "unitBalance": 1440.938,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:36"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:36",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:35",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:37",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-12-10",
+                  "description": "Systematic Investment (21)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 53.622,
+                  "nav": 186.4797,
+                  "unitBalance": 1494.56,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:38"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:38",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2021-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:37",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:39",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-01-10",
+                  "description": "Systematic Investment (22)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 53.249,
+                  "nav": 187.7878,
+                  "unitBalance": 1547.809,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:40"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:40",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:39",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:41",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-02-10",
+                  "description": "Systematic Investment (23)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 55.144,
+                  "nav": 181.334,
+                  "unitBalance": 1602.953,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:42"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:42",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:41",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:43",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-03-10",
+                  "description": "Systematic Investment (24)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 57.092,
+                  "nav": 175.1469,
+                  "unitBalance": 1660.045,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:44"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:44",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:43",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:45",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-04-11",
+                  "description": "Systematic Investment (25)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 57.277,
+                  "nav": 174.5815,
+                  "unitBalance": 1717.322,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:46"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:46",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-04-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:45",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:47",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-05-10",
+                  "description": "Systematic Investment (26)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 61.275,
+                  "nav": 163.1899,
+                  "unitBalance": 1778.597,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:48"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:48",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:47",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:49",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-06-10",
+                  "description": "Systematic Investment (27)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 67.623,
+                  "nav": 147.8705,
+                  "unitBalance": 1846.22,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:50"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:50",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:49",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:51",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-07-11",
+                  "description": "Systematic Investment (28)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 64.234,
+                  "nav": 155.6718,
+                  "unitBalance": 1910.454,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:52"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:52",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-07-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:51",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:53",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-08-10",
+                  "description": "Systematic Investment (29)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 67.277,
+                  "nav": 148.6319,
+                  "unitBalance": 1977.731,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:54"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:54",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:53",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:55",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-09-12",
+                  "description": "Systematic Investment (30)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 66.363,
+                  "nav": 150.6799,
+                  "unitBalance": 2044.094,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:56"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:56",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-09-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:55",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:57",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-10-10",
+                  "description": "Systematic Investment (31)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 61.62,
+                  "nav": 162.277,
+                  "unitBalance": 2105.714,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:58"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:58",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:57",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:59",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-11-10",
+                  "description": "Systematic Investment (32)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 59.737,
+                  "nav": 167.3917,
+                  "unitBalance": 2165.451,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:60"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:60",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:59",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:61",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-12-12",
+                  "description": "Systematic Investment (33)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 59.586,
+                  "nav": 167.816,
+                  "unitBalance": 2225.037,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:62"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:62",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-12-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:61",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:63",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-01-10",
+                  "description": "Systematic Investment (34)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 56.176,
+                  "nav": 178.002,
+                  "unitBalance": 2281.213,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:64"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:64",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:63",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:65",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-02-10",
+                  "description": "Systematic Investment (35)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 51.265,
+                  "nav": 195.0537,
+                  "unitBalance": 2332.478,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:66"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:66",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:65",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:67",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-03-10",
+                  "description": "Systematic Investment (36)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 51.47,
+                  "nav": 194.279,
+                  "unitBalance": 2383.948,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:68"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:68",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 2,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:67",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:69",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-04-10",
+                  "description": "Systematic Investment (37)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 52.403,
+                  "nav": 190.8195,
+                  "unitBalance": 2436.351,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:70"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:70",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:69",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:71",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-05-10",
+                  "description": "Systematic Investment (38)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 48.811,
+                  "nav": 204.8628,
+                  "unitBalance": 2485.162,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:72"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:72",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:71",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:73",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-06-12",
+                  "description": "Systematic Investment (39)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 48.509,
+                  "nav": 206.1363,
+                  "unitBalance": 2533.671,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:74"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:74",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-06-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:73",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:75",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-07-10",
+                  "description": "Systematic Investment (40)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 47.952,
+                  "nav": 208.5319,
+                  "unitBalance": 2581.623,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:76"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:76",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:75",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:77",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-08-10",
+                  "description": "Systematic Investment (41)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 46.061,
+                  "nav": 217.0934,
+                  "unitBalance": 2627.684,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:78"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:78",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:77",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:79",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-09-11",
+                  "description": "Systematic Investment (42)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 45.359,
+                  "nav": 220.4537,
+                  "unitBalance": 2673.043,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:80"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:80",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-09-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:79",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:81",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-10-10",
+                  "description": "Systematic Investment (43)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 43.196,
+                  "nav": 231.4932,
+                  "unitBalance": 2716.239,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:82"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:82",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:81",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:83",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-11-10",
+                  "description": "Systematic Investment (44)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 46.604,
+                  "nav": 214.5648,
+                  "unitBalance": 2762.843,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:84"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:84",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:83",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:85",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-12-11",
+                  "description": "Systematic Investment (45)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 41.07,
+                  "nav": 243.472,
+                  "unitBalance": 2803.913,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:86"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:86",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2023-12-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:85",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:87",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-01-10",
+                  "description": "Systematic Investment (46)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 40.383,
+                  "nav": 247.6164,
+                  "unitBalance": 2844.296,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:88"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:88",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:87",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:89",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-02-12",
+                  "description": "Systematic Investment (47)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 39.115,
+                  "nav": 255.6436,
+                  "unitBalance": 2883.411,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:90"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:90",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-02-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:89",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:91",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-03-11",
+                  "description": "Systematic Investment (48)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 39.864,
+                  "nav": 250.8435,
+                  "unitBalance": 2923.275,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:92"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:92",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-03-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:91",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:93",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-04-10",
+                  "description": "Systematic Investment (49)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 37.798,
+                  "nav": 264.5481,
+                  "unitBalance": 2961.073,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:94"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:94",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:93",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:95",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-05-10",
+                  "description": "Systematic Investment (50)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 38.024,
+                  "nav": 262.9753,
+                  "unitBalance": 2999.097,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:96"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:96",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:95",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:97",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-06-10",
+                  "description": "Systematic Investment (51)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 36.53,
+                  "nav": 273.7351,
+                  "unitBalance": 3035.627,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:98"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:98",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:97",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:99",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-07-10",
+                  "description": "Systematic Investment (52)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 36.289,
+                  "nav": 275.5481,
+                  "unitBalance": 3071.916,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:100"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:100",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:99",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:101",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-08-12",
+                  "description": "Systematic Investment (53)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 35.404,
+                  "nav": 282.4417,
+                  "unitBalance": 3107.32,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:102"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:102",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-08-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:101",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:103",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-09-10",
+                  "description": "Systematic Investment (54)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 37.903,
+                  "nav": 263.8193,
+                  "unitBalance": 3145.223,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:104"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:104",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:103",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:105",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-10-10",
+                  "description": "Systematic Investment (55)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 38.154,
+                  "nav": 262.0847,
+                  "unitBalance": 3183.377,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:106"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:106",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:105",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:107",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-11-11",
+                  "description": "Systematic Investment (56)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 37.798,
+                  "nav": 264.5487,
+                  "unitBalance": 3221.175,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:108"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:108",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-11-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:107",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:109",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-12-10",
+                  "description": "Systematic Investment (57)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 36.227,
+                  "nav": 276.0218,
+                  "unitBalance": 3257.402,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:110"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:110",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2024-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:109",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:111",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-01-10",
+                  "description": "Systematic Investment (58)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 35.496,
+                  "nav": 281.7113,
+                  "unitBalance": 3292.898,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:112"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:112",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:111",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:113",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-02-10",
+                  "description": "Systematic Investment (59)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 33.377,
+                  "nav": 299.5962,
+                  "unitBalance": 3326.275,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:114"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:114",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:113",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:115",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-03-10",
+                  "description": "Systematic Investment (60)",
+                  "kind": "sip",
+                  "amount": 9999.5,
+                  "units": 33.721,
+                  "nav": 296.533,
+                  "unitBalance": 3359.996,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:7613460650 / 0:116"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:7613460650 / 0:116",
+                  "rta": "CAMS",
+                  "folioNumber": "7613460650 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2025-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:7613460650 / 0:115",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 3359.996,
+                "printedClosingUnits": 3359.996,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            },
+            {
+              "folioNumber": "4310621070 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 689.253,
+              "closingNav": 308.2949,
+              "closingValue": 212493.18,
+              "transactions": [
+                {
+                  "id": "INF000S01IX8:4310621070 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "4310621070 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-08-16",
+                  "description": "Purchase - via myCAMS",
+                  "kind": "purchase",
+                  "amount": 99995,
+                  "units": 689.253,
+                  "nav": 145.0774,
+                  "unitBalance": 689.253,
+                  "page": 3,
+                  "levies": [
+                    "INF000S01IX8:4310621070 / 0:1"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01IX8:4310621070 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "4310621070 / 0",
+                  "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+                  "isin": "INF000S01IX8",
+                  "date": "2022-08-16",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 5,
+                  "page": 3,
+                  "attachedTo": "INF000S01IX8:4310621070 / 0:0",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 689.253,
+                "printedClosingUnits": 689.253,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 4049.249,
+          "closingNav": 308.2949,
+          "closingValue": 1248362.81,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 3,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01SM0": "ok",
+      "INF000S01IX8": "ok"
+    },
+    "stats": {
+      "pages": 3,
+      "rows": 217,
+      "transactions": 174,
+      "unclassified": 0,
+      "folios": 3,
+      "funds": 2,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2025-03-31",
+      "totalInvested": 841000,
+      "totalRedeemed": 299533.86,
+      "valueAsOfStatementDate": 1248362.81,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 1248362.82,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 25.2633,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01SM0": {
+        "schemeName": "Lens Sample Small Cap Fund - Direct Plan - Growth",
+        "closingUnits": 0,
+        "closingNav": 173.3802,
+        "closingValue": 0,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 141000,
+        "redeemed": 299533.86,
+        "netInvested": -158533.86,
+        "terminalValue": 0,
+        "cashflowCount": 48,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2017-02-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-03-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-04-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-05-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-06-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-07-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-08-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-09-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-10-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-11-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-12-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-01-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-02-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-03-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-04-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-05-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-06-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-07-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-08-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-09-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-10-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-11-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-12-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-01-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-02-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-03-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-04-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-05-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-06-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-07-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-08-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-09-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-10-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-11-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-12-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-01-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-02-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-03-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-04-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -3000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-11-22",
+            "amount": 299533.86,
+            "label": "Redemption − STT"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 28.2634,
+          "method": "newton"
+        }
+      },
+      "INF000S01IX8": {
+        "schemeName": "Lens Sample Nifty 50 Index Fund - Direct Plan - Growth",
+        "closingUnits": 4049.249,
+        "closingNav": 308.2949,
+        "closingValue": 1248362.81,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 700000,
+        "redeemed": 0,
+        "netInvested": 700000,
+        "terminalValue": 1248362.82,
+        "cashflowCount": 61,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2020-04-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-01-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-02-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-03-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-04-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-05-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-06-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-07-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-08-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-09-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-10-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-11-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-12-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-01-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-02-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-03-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-04-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-05-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-06-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-07-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-08-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-08-16",
+            "amount": -100000,
+            "label": "Purchase + stamp duty"
+          },
+          {
+            "date": "2022-09-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-10-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-11-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-12-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-01-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-02-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-03-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-04-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-05-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-06-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-07-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-08-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-09-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-10-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-11-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-12-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-01-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-02-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-03-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-04-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-05-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-06-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-07-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-08-12",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-09-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-10-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-11-11",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2024-12-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-01-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-02-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-10",
+            "amount": -10000,
+            "label": "SIP"
+          },
+          {
+            "date": "2025-03-31",
+            "amount": 1248362.82,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 23.7151,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01SM0",
+          "folioNumber": "7613460650 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2017-02-10",
+              "amount": 3000
+            }
+          ],
+          "firstDate": "2017-02-10",
+          "lastObserved": "2020-12-10",
+          "counts": {
+            "expected": 98,
+            "made": 47,
+            "missed": 0,
+            "stopped": 51
+          },
+          "percent": 100,
+          "stoppedSince": "2021-01-10"
+        },
+        {
+          "fundId": "INF000S01IX8",
+          "folioNumber": "7613460650 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2020-04-10",
+              "amount": 10000
+            }
+          ],
+          "firstDate": "2020-04-10",
+          "lastObserved": "2025-03-10",
+          "counts": {
+            "expected": 60,
+            "made": 60,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

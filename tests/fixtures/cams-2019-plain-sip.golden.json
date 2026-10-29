@@ -1,0 +1,941 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2019-plain-sip.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-07","US-09","US-10","US-12","US-13","US-14","US-16","US-17","US-23","US-24","US-25","US-27"],
+  "edges": ["E48 (ok path)","E52","E59"],
+  "notes": "Baseline: CAMS detailed, one folio, one fund, 38 monthly SIP instalments before stamp duty existed. Simplest spreadsheet cross-check.",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "CAMS",
+      "statementDate": "2019-03-29",
+      "statementPeriod": {
+        "from": "2016-01-01",
+        "to": "2019-03-29"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01LC6",
+          "isin": "INF000S01LC6",
+          "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "4755251488 / 0",
+              "rta": "CAMS",
+              "openingUnits": 0,
+              "closingUnits": 5775.794,
+              "closingNav": 40.0449,
+              "closingValue": 231291.09,
+              "transactions": [
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:0",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-02-10",
+                  "description": "Systematic Investment (1)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 136.22,
+                  "nav": 36.7054,
+                  "unitBalance": 136.22,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:1",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-03-10",
+                  "description": "Systematic Investment (2)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 153.323,
+                  "nav": 32.6108,
+                  "unitBalance": 289.543,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:2",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-04-11",
+                  "description": "Systematic Investment (3)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 146.218,
+                  "nav": 34.1956,
+                  "unitBalance": 435.761,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:3",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-05-10",
+                  "description": "Systematic Investment (4)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 137.664,
+                  "nav": 36.3202,
+                  "unitBalance": 573.425,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:4",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-06-10",
+                  "description": "Systematic Investment (5)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 140.442,
+                  "nav": 35.602,
+                  "unitBalance": 713.867,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:5",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-07-11",
+                  "description": "Systematic Investment (6)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.77,
+                  "nav": 34.3005,
+                  "unitBalance": 859.637,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:6",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-08-10",
+                  "description": "Systematic Investment (7)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 153.173,
+                  "nav": 32.6428,
+                  "unitBalance": 1012.81,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:7",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-09-12",
+                  "description": "Systematic Investment (8)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 156.168,
+                  "nav": 32.0168,
+                  "unitBalance": 1168.978,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:8",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-10-10",
+                  "description": "Systematic Investment (9)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 164.199,
+                  "nav": 30.4509,
+                  "unitBalance": 1333.177,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:9",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-11-10",
+                  "description": "Systematic Investment (10)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 177.296,
+                  "nav": 28.2014,
+                  "unitBalance": 1510.473,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:10",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2016-12-12",
+                  "description": "Systematic Investment (11)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 175.307,
+                  "nav": 28.5214,
+                  "unitBalance": 1685.78,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:11",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-01-10",
+                  "description": "Systematic Investment (12)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 170.428,
+                  "nav": 29.3379,
+                  "unitBalance": 1856.208,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:12",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-02-10",
+                  "description": "Systematic Investment (13)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 169.428,
+                  "nav": 29.511,
+                  "unitBalance": 2025.636,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:13",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-03-10",
+                  "description": "Systematic Investment (14)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.9,
+                  "nav": 34.27,
+                  "unitBalance": 2171.536,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:14",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-04-10",
+                  "description": "Systematic Investment (15)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 152.169,
+                  "nav": 32.8581,
+                  "unitBalance": 2323.705,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:15",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-05-10",
+                  "description": "Systematic Investment (16)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 166.661,
+                  "nav": 30.0011,
+                  "unitBalance": 2490.366,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:16",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-06-12",
+                  "description": "Systematic Investment (17)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 168.338,
+                  "nav": 29.7022,
+                  "unitBalance": 2658.704,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:17",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-07-10",
+                  "description": "Systematic Investment (18)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 167.763,
+                  "nav": 29.804,
+                  "unitBalance": 2826.467,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:18",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-08-10",
+                  "description": "Systematic Investment (19)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 164.644,
+                  "nav": 30.3685,
+                  "unitBalance": 2991.111,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:19",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-09-11",
+                  "description": "Systematic Investment (20)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 164.92,
+                  "nav": 30.3178,
+                  "unitBalance": 3156.031,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:20",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-10-10",
+                  "description": "Systematic Investment (21)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 179.525,
+                  "nav": 27.8513,
+                  "unitBalance": 3335.556,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:21",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-11-10",
+                  "description": "Systematic Investment (22)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 175.392,
+                  "nav": 28.5076,
+                  "unitBalance": 3510.948,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:22",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2017-12-11",
+                  "description": "Systematic Investment (23)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 164.398,
+                  "nav": 30.414,
+                  "unitBalance": 3675.346,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:23",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-01-10",
+                  "description": "Systematic Investment (24)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 154.364,
+                  "nav": 32.3909,
+                  "unitBalance": 3829.71,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:24",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-02-12",
+                  "description": "Systematic Investment (25)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.143,
+                  "nav": 34.4488,
+                  "unitBalance": 3974.853,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:25",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-03-12",
+                  "description": "Systematic Investment (26)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 139.416,
+                  "nav": 35.864,
+                  "unitBalance": 4114.269,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:26",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-04-10",
+                  "description": "Systematic Investment (27)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 137.646,
+                  "nav": 36.3251,
+                  "unitBalance": 4251.915,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:27",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-05-10",
+                  "description": "Systematic Investment (28)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.01,
+                  "nav": 34.4803,
+                  "unitBalance": 4396.925,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:28",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-06-11",
+                  "description": "Systematic Investment (29)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 140.555,
+                  "nav": 35.5732,
+                  "unitBalance": 4537.48,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:29",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-07-10",
+                  "description": "Systematic Investment (30)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 145.82,
+                  "nav": 34.2888,
+                  "unitBalance": 4683.3,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:30",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-08-10",
+                  "description": "Systematic Investment (31)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 147.972,
+                  "nav": 33.7901,
+                  "unitBalance": 4831.272,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:31",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-09-10",
+                  "description": "Systematic Investment (32)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 144.272,
+                  "nav": 34.6567,
+                  "unitBalance": 4975.544,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:32",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-10-10",
+                  "description": "Systematic Investment (33)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 137.106,
+                  "nav": 36.4681,
+                  "unitBalance": 5112.65,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:33",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-11-12",
+                  "description": "Systematic Investment (34)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 130.925,
+                  "nav": 38.1899,
+                  "unitBalance": 5243.575,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:34",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2018-12-10",
+                  "description": "Systematic Investment (35)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 139.06,
+                  "nav": 35.9557,
+                  "unitBalance": 5382.635,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:35",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2019-01-10",
+                  "description": "Systematic Investment (36)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 132.549,
+                  "nav": 37.722,
+                  "unitBalance": 5515.184,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:36",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2019-02-11",
+                  "description": "Systematic Investment (37)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 126.87,
+                  "nav": 39.4104,
+                  "unitBalance": 5642.054,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01LC6:4755251488 / 0:37",
+                  "rta": "CAMS",
+                  "folioNumber": "4755251488 / 0",
+                  "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+                  "isin": "INF000S01LC6",
+                  "date": "2019-03-11",
+                  "description": "Systematic Investment (38)",
+                  "kind": "sip",
+                  "amount": 5000,
+                  "units": 133.74,
+                  "nav": 37.386,
+                  "unitBalance": 5775.794,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 5775.794,
+                "printedClosingUnits": 5775.794,
+                "diff": 0,
+                "toleranceUnits": 0.002,
+                "decimals": 3
+              }
+            }
+          ],
+          "closingUnits": 5775.794,
+          "closingNav": 40.0449,
+          "closingValue": 231291.09,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 1,
+      "unitDecimals": 3
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01LC6": "ok"
+    },
+    "stats": {
+      "pages": 1,
+      "rows": 59,
+      "transactions": 38,
+      "unclassified": 0,
+      "folios": 1,
+      "funds": 1,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2019-03-29",
+      "totalInvested": 190000,
+      "totalRedeemed": 0,
+      "valueAsOfStatementDate": 231291.09,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 231291.09,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 12.7427,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01LC6": {
+        "schemeName": "Lens Sample Large Cap Fund - Direct Plan - Growth",
+        "closingUnits": 5775.794,
+        "closingNav": 40.0449,
+        "closingValue": 231291.09,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 190000,
+        "redeemed": 0,
+        "netInvested": 190000,
+        "terminalValue": 231291.09,
+        "cashflowCount": 38,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2016-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-04-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-06-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-07-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-09-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2016-12-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-02-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-03-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-06-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-09-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-11-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2017-12-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-02-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-03-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-04-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-05-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-06-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-07-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-08-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-09-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-10-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-11-12",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2018-12-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-01-10",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-02-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-03-11",
+            "amount": -5000,
+            "label": "SIP"
+          },
+          {
+            "date": "2019-03-29",
+            "amount": 231291.09,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 12.7427,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01LC6",
+          "folioNumber": "4755251488 / 0",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2016-02-10",
+              "amount": 5000
+            }
+          ],
+          "firstDate": "2016-02-10",
+          "lastObserved": "2019-03-11",
+          "counts": {
+            "expected": 38,
+            "made": 38,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

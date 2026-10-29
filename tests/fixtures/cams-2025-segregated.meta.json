@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-segregated.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 1,
+  "bytes": 3297,
+  "sha256": "37c059be4dad5ca50a0431d79a2134dcbcb65fd0942c87b9b42a2b1c1702d784",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

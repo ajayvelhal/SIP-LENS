@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-switch-pair.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 3,
+  "bytes": 8556,
+  "sha256": "c5d2a2f21ccfcaee1d9d6144f330616e018aa9e7f278ca490e4e28c06d9e27de",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

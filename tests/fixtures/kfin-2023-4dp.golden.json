@@ -1,0 +1,1864 @@
+{
+  "goldenVersion": 1,
+  "fixture": "kfin-2023-4dp.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-09","US-10"],
+  "edges": ["E49","E14"],
+  "notes": "Units printed with four decimals: unitDecimals 4, tolerance 0.0002.",
+  "expect": "result",
+  "result": {
+    "portfolio": {
+      "schemaVersion": 1,
+      "issuer": "KFINTECH",
+      "statementDate": "2023-09-29",
+      "statementPeriod": {
+        "from": "2020-01-01",
+        "to": "2023-09-29"
+      },
+      "investorName": "LENS SAMPLE INVESTOR",
+      "investorCount": 1,
+      "funds": [
+        {
+          "id": "INF000S01MD2",
+          "isin": "INF000S01MD2",
+          "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+          "amc": "Lens Sample Mutual Fund",
+          "folios": [
+            {
+              "folioNumber": "1966916512 / 64",
+              "rta": "KFINTECH",
+              "openingUnits": 0,
+              "closingUnits": 2043.0231,
+              "closingNav": 273.5129,
+              "closingValue": 558793.17,
+              "transactions": [
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:0",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-02-10",
+                  "description": "Purchase - Systematic (Instalment 1)",
+                  "kind": "sip",
+                  "amount": 7000,
+                  "units": 55.8768,
+                  "nav": 125.2757,
+                  "unitBalance": 55.8768,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:1",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-03-10",
+                  "description": "Purchase - Systematic (Instalment 2)",
+                  "kind": "sip",
+                  "amount": 7000,
+                  "units": 115.1443,
+                  "nav": 60.7933,
+                  "unitBalance": 171.0211,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:2",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-04-10",
+                  "description": "Purchase - Systematic (Instalment 3)",
+                  "kind": "sip",
+                  "amount": 7000,
+                  "units": 130.3235,
+                  "nav": 53.7125,
+                  "unitBalance": 301.3446,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:3",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-05-11",
+                  "description": "Purchase - Systematic (Instalment 4)",
+                  "kind": "sip",
+                  "amount": 7000,
+                  "units": 114.3158,
+                  "nav": 61.2339,
+                  "unitBalance": 415.6604,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:4",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-06-10",
+                  "description": "Purchase - Systematic (Instalment 5)",
+                  "kind": "sip",
+                  "amount": 7000,
+                  "units": 101.4074,
+                  "nav": 69.0285,
+                  "unitBalance": 517.0678,
+                  "page": 1,
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:5",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-07-10",
+                  "description": "Purchase - Systematic (Instalment 6)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 86.2589,
+                  "nav": 81.147,
+                  "unitBalance": 603.3267,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:6"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:6",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:5",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:7",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-08-10",
+                  "description": "Purchase - Systematic (Instalment 7)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 71.5845,
+                  "nav": 97.7816,
+                  "unitBalance": 674.9112,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:8"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:8",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:7",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:9",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-09-10",
+                  "description": "Purchase - Systematic (Instalment 8)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 74.6879,
+                  "nav": 93.7186,
+                  "unitBalance": 749.5991,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:10"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:10",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:9",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:11",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-10-12",
+                  "description": "Purchase - Systematic (Instalment 9)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 60.9676,
+                  "nav": 114.8094,
+                  "unitBalance": 810.5667,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:12"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:12",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-10-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:11",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:13",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-11-10",
+                  "description": "Purchase - Systematic (Instalment 10)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 50.524,
+                  "nav": 138.5412,
+                  "unitBalance": 861.0907,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:14"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:14",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:13",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:15",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-12-10",
+                  "description": "Purchase - Systematic (Instalment 11)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 46.2918,
+                  "nav": 151.2072,
+                  "unitBalance": 907.3825,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:16"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:16",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2020-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:15",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:17",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-01-11",
+                  "description": "Purchase - Systematic (Instalment 12)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 41.4519,
+                  "nav": 168.8619,
+                  "unitBalance": 948.8344,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:18"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:18",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-01-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:17",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:19",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-02-10",
+                  "description": "Purchase - Systematic (Instalment 13)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 40.2989,
+                  "nav": 173.6932,
+                  "unitBalance": 989.1333,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:20"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:20",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:19",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:21",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-03-10",
+                  "description": "Purchase - Systematic (Instalment 14)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 36.2008,
+                  "nav": 193.3563,
+                  "unitBalance": 1025.3341,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:22"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:22",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:21",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:23",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-04-12",
+                  "description": "Purchase - Systematic (Instalment 15)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 38.2991,
+                  "nav": 182.7629,
+                  "unitBalance": 1063.6332,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:24"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:24",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-04-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:23",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:25",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-05-10",
+                  "description": "Purchase - Systematic (Instalment 16)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.8035,
+                  "nav": 185.1589,
+                  "unitBalance": 1101.4367,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:26"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:26",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:25",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:27",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-06-10",
+                  "description": "Purchase - Systematic (Instalment 17)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 36.2331,
+                  "nav": 193.184,
+                  "unitBalance": 1137.6698,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:28"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:28",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:27",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:29",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-07-12",
+                  "description": "Purchase - Systematic (Instalment 18)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.0807,
+                  "nav": 188.768,
+                  "unitBalance": 1174.7505,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:30"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:30",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-07-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:29",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:31",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-08-10",
+                  "description": "Purchase - Systematic (Instalment 19)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.7129,
+                  "nav": 185.6038,
+                  "unitBalance": 1212.4634,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:32"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:32",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:31",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:33",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-09-10",
+                  "description": "Purchase - Systematic (Instalment 20)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 35.7288,
+                  "nav": 195.9107,
+                  "unitBalance": 1248.1922,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:34"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:34",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-09-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:33",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:35",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-10-11",
+                  "description": "Purchase - Systematic (Instalment 21)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.9485,
+                  "nav": 184.4515,
+                  "unitBalance": 1286.1407,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:36"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:36",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-10-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:35",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:37",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-11-10",
+                  "description": "Purchase - Systematic (Instalment 22)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 35.9495,
+                  "nav": 194.7079,
+                  "unitBalance": 1322.0902,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:38"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:38",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:37",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:39",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-12-10",
+                  "description": "Purchase - Systematic (Instalment 23)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.0966,
+                  "nav": 188.6872,
+                  "unitBalance": 1359.1868,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:40"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:40",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2021-12-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:39",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:41",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-01-10",
+                  "description": "Purchase - Systematic (Instalment 24)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 36.2338,
+                  "nav": 193.1801,
+                  "unitBalance": 1395.4206,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:42"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:42",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:41",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:43",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-02-10",
+                  "description": "Purchase - Systematic (Instalment 25)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 37.4263,
+                  "nav": 187.0247,
+                  "unitBalance": 1432.8469,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:44"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:44",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:43",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:45",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-03-10",
+                  "description": "Purchase - Systematic (Instalment 26)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 39.983,
+                  "nav": 175.0657,
+                  "unitBalance": 1472.8299,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:46"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:46",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:45",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:47",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-04-11",
+                  "description": "Purchase - Systematic (Instalment 27)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 41.5781,
+                  "nav": 168.3496,
+                  "unitBalance": 1514.408,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:48"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:48",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-04-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:47",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:49",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-05-10",
+                  "description": "Purchase - Systematic (Instalment 28)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 44.6059,
+                  "nav": 156.9222,
+                  "unitBalance": 1559.0139,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:50"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:50",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 1,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:49",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:51",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-05-16",
+                  "description": "Switch-Out To Lens Sample Arbitrage Fund - Direct Plan - Growth",
+                  "kind": "switch_out",
+                  "amount": -15414.44,
+                  "units": -100,
+                  "nav": 154.1444,
+                  "unitBalance": 1459.0139,
+                  "page": 1,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:52"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:52",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-05-16",
+                  "description": "*** STT Paid ***",
+                  "kind": "stt_tds",
+                  "amount": 0.15,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:51",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:53",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-06-10",
+                  "description": "Purchase - Systematic (Instalment 29)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 47.8065,
+                  "nav": 146.4162,
+                  "unitBalance": 1506.8204,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:54"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:54",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-06-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:53",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:55",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-07-11",
+                  "description": "Purchase - Systematic (Instalment 30)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 44.4964,
+                  "nav": 157.3083,
+                  "unitBalance": 1551.3168,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:56"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:56",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-07-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:55",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:57",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-08-10",
+                  "description": "Purchase - Systematic (Instalment 31)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 46.6961,
+                  "nav": 149.8978,
+                  "unitBalance": 1598.0129,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:58"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:58",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:57",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:59",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-09-12",
+                  "description": "Purchase - Systematic (Instalment 32)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 47.4748,
+                  "nav": 147.4394,
+                  "unitBalance": 1645.4877,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:60"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:60",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-09-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:59",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:61",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-10-10",
+                  "description": "Purchase - Systematic (Instalment 33)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 42.697,
+                  "nav": 163.9379,
+                  "unitBalance": 1688.1847,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:62"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:62",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-10-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:61",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:63",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-11-10",
+                  "description": "Purchase - Systematic (Instalment 34)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 42.8771,
+                  "nav": 163.2491,
+                  "unitBalance": 1731.0618,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:64"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:64",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-11-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:63",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:65",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-12-12",
+                  "description": "Purchase - Systematic (Instalment 35)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 41.1066,
+                  "nav": 170.2804,
+                  "unitBalance": 1772.1684,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:66"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:66",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2022-12-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:65",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:67",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-01-10",
+                  "description": "Purchase - Systematic (Instalment 36)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 38.0626,
+                  "nav": 183.8984,
+                  "unitBalance": 1810.231,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:68"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:68",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-01-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:67",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:69",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-02-10",
+                  "description": "Purchase - Systematic (Instalment 37)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 30.6011,
+                  "nav": 228.7382,
+                  "unitBalance": 1840.8321,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:70"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:70",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-02-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:69",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:71",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-03-10",
+                  "description": "Purchase - Systematic (Instalment 38)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 30.9784,
+                  "nav": 225.9527,
+                  "unitBalance": 1871.8105,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:72"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:72",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-03-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:71",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:73",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-04-10",
+                  "description": "Purchase - Systematic (Instalment 39)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 30.4426,
+                  "nav": 229.9294,
+                  "unitBalance": 1902.2531,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:74"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:74",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-04-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:73",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:75",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-05-10",
+                  "description": "Purchase - Systematic (Instalment 40)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 29.0641,
+                  "nav": 240.8347,
+                  "unitBalance": 1931.3172,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:76"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:76",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-05-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:75",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:77",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-06-12",
+                  "description": "Purchase - Systematic (Instalment 41)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 30.0917,
+                  "nav": 232.6109,
+                  "unitBalance": 1961.4089,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:78"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:78",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-06-12",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:77",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:79",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-07-10",
+                  "description": "Purchase - Systematic (Instalment 42)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 29.221,
+                  "nav": 239.5417,
+                  "unitBalance": 1990.6299,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:80"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:80",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-07-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:79",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:81",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-08-10",
+                  "description": "Purchase - Systematic (Instalment 43)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 26.7965,
+                  "nav": 261.2155,
+                  "unitBalance": 2017.4264,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:82"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:82",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-08-10",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:81",
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:83",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-09-11",
+                  "description": "Purchase - Systematic (Instalment 44)",
+                  "kind": "sip",
+                  "amount": 6999.65,
+                  "units": 25.5967,
+                  "nav": 273.4587,
+                  "unitBalance": 2043.0231,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01MD2:1966916512 / 64:84"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01MD2:1966916512 / 64:84",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "isin": "INF000S01MD2",
+                  "date": "2023-09-11",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.35,
+                  "page": 2,
+                  "attachedTo": "INF000S01MD2:1966916512 / 64:83",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 2043.0231,
+                "printedClosingUnits": 2043.0231,
+                "diff": 0,
+                "toleranceUnits": 0.0002,
+                "decimals": 4
+              }
+            }
+          ],
+          "closingUnits": 2043.0231,
+          "closingNav": 273.5129,
+          "closingValue": 558793.17,
+          "mayBeIncomplete": false
+        },
+        {
+          "id": "INF000S01AR7",
+          "isin": "INF000S01AR7",
+          "schemeName": "Lens Sample Arbitrage Fund - Direct Plan - Growth",
+          "amc": "Orbit Sample Asset Managers",
+          "folios": [
+            {
+              "folioNumber": "1966916512 / 64",
+              "rta": "KFINTECH",
+              "openingUnits": 0,
+              "closingUnits": 766.5099,
+              "closingNav": 21.8823,
+              "closingValue": 16773,
+              "transactions": [
+                {
+                  "id": "INF000S01AR7:1966916512 / 64:0",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Arbitrage Fund - Direct Plan - Growth",
+                  "isin": "INF000S01AR7",
+                  "date": "2022-05-16",
+                  "description": "Switch-In From Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+                  "kind": "switch_in",
+                  "amount": 15413.67,
+                  "units": 766.5099,
+                  "nav": 20.1089,
+                  "unitBalance": 766.5099,
+                  "page": 2,
+                  "levies": [
+                    "INF000S01AR7:1966916512 / 64:1"
+                  ],
+                  "excludedFromCashflows": false
+                },
+                {
+                  "id": "INF000S01AR7:1966916512 / 64:1",
+                  "rta": "KFINTECH",
+                  "folioNumber": "1966916512 / 64",
+                  "schemeName": "Lens Sample Arbitrage Fund - Direct Plan - Growth",
+                  "isin": "INF000S01AR7",
+                  "date": "2022-05-16",
+                  "description": "*** Stamp Duty ***",
+                  "kind": "stamp_duty",
+                  "amount": 0.77,
+                  "page": 2,
+                  "attachedTo": "INF000S01AR7:1966916512 / 64:0",
+                  "excludedFromCashflows": false
+                }
+              ],
+              "reconciliation": {
+                "status": "ok",
+                "computedClosingUnits": 766.5099,
+                "printedClosingUnits": 766.5099,
+                "diff": 0,
+                "toleranceUnits": 0.0002,
+                "decimals": 4
+              }
+            }
+          ],
+          "closingUnits": 766.5099,
+          "closingNav": 21.8823,
+          "closingValue": 16773,
+          "mayBeIncomplete": false
+        }
+      ],
+      "pageCount": 2,
+      "unitDecimals": 4
+    },
+    "warnings": [],
+    "reconciliation": {
+      "INF000S01MD2": "ok",
+      "INF000S01AR7": "ok"
+    },
+    "stats": {
+      "pages": 2,
+      "rows": 121,
+      "transactions": 87,
+      "unclassified": 0,
+      "folios": 2,
+      "funds": 2,
+      "extractMs": 0,
+      "parseMs": 0
+    }
+  },
+  "invariants": {
+    "portfolio": {
+      "asOf": "2023-09-29",
+      "totalInvested": 323414.44,
+      "totalRedeemed": 15414.29,
+      "valueAsOfStatementDate": 575566.17,
+      "fundsWithoutPrintedValue": 0,
+      "terminalValue": 575566.17,
+      "skippedFunds": [],
+      "xirr": {
+        "status": "ok",
+        "ratePct4dp": 36.3635,
+        "method": "newton"
+      }
+    },
+    "funds": {
+      "INF000S01MD2": {
+        "schemeName": "Lens Sample Midcap Opportunities Fund - Direct Plan - Growth",
+        "closingUnits": 2043.0231,
+        "closingNav": 273.5129,
+        "closingValue": 558793.17,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 308000,
+        "redeemed": 15414.29,
+        "netInvested": 292585.71,
+        "terminalValue": 558793.17,
+        "cashflowCount": 45,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2020-02-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-03-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-04-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-05-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-06-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-07-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-08-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-09-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-10-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-11-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2020-12-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-01-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-02-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-03-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-04-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-05-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-06-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-07-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-08-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-09-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-10-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-11-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2021-12-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-01-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-02-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-03-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-04-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-05-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-05-16",
+            "amount": 15414.29,
+            "label": "Switch out"
+          },
+          {
+            "date": "2022-06-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-07-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-08-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-09-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-10-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-11-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2022-12-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-01-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-02-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-03-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-04-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-05-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-06-12",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-07-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-08-10",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-09-11",
+            "amount": -7000,
+            "label": "SIP"
+          },
+          {
+            "date": "2023-09-29",
+            "amount": 558793.17,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 37.1194,
+          "method": "newton"
+        }
+      },
+      "INF000S01AR7": {
+        "schemeName": "Lens Sample Arbitrage Fund - Direct Plan - Growth",
+        "closingUnits": 766.5099,
+        "closingNav": 21.8823,
+        "closingValue": 16773,
+        "mayBeIncomplete": false,
+        "openingWithoutHistory": false,
+        "invested": 15414.44,
+        "redeemed": 0,
+        "netInvested": 15414.44,
+        "terminalValue": 16773,
+        "cashflowCount": 1,
+        "ignoredCount": 0,
+        "cashflows": [
+          {
+            "date": "2022-05-16",
+            "amount": -15414.44,
+            "label": "Switch in"
+          },
+          {
+            "date": "2023-09-29",
+            "amount": 16773,
+            "label": "Value as of statement date"
+          }
+        ],
+        "ignored": [],
+        "xirr": {
+          "status": "ok",
+          "ratePct4dp": 6.347,
+          "method": "newton"
+        }
+      }
+    },
+    "discipline": {
+      "score": 100,
+      "sips": [
+        {
+          "fundId": "INF000S01MD2",
+          "folioNumber": "1966916512 / 64",
+          "frequency": "monthly",
+          "amounts": [
+            {
+              "from": "2020-02-10",
+              "amount": 7000
+            }
+          ],
+          "firstDate": "2020-02-10",
+          "lastObserved": "2023-09-11",
+          "counts": {
+            "expected": 44,
+            "made": 44,
+            "missed": 0,
+            "stopped": 0
+          },
+          "percent": 100
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "goldenVersion": 1,
+  "fixture": "nsdl-2025-depository.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-06"],
+  "edges": ["E11"],
+  "notes": "NSDL monthly e-CAS: prints \"Consolidated Account Statement\" and lists MF folios serviced by CAMS/KFintech, so depository markers must win.",
+  "expect": "error",
+  "error": {
+    "code": "DEPOSITORY_CAS",
+    "message": "ui.error.DEPOSITORY_CAS",
+    "depository": "NSDL"
+  }
+}

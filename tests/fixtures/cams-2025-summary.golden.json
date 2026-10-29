@@ -1,0 +1,22 @@
+{
+  "goldenVersion": 1,
+  "fixture": "cams-2025-summary.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-05"],
+  "edges": ["E10"],
+  "notes": "CAMS summary CAS: scheme sections with closing balance / cost / market value and zero transaction rows. Rejected with the scheme names and statement date found.",
+  "expect": "error",
+  "error": {
+    "code": "SUMMARY_CAS",
+    "message": "ui.error.SUMMARY_CAS",
+    "issuer": "CAMS",
+    "schemeNames": [
+      "Lens Sample Large Cap Fund - Direct Plan - Growth",
+      "Lens Sample ELSS Tax Saver Fund - Direct Plan - Growth"
+    ],
+    "statementDate": "2025-03-31"
+  }
+}

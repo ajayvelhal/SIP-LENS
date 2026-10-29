@@ -1,0 +1,12 @@
+{
+  "fixture": "not-cas-cams-letter.pdf",
+  "kind": "cams-letter",
+  "expect": "NOT_CAS",
+  "pageCount": 1,
+  "bytes": 2529,
+  "sha256": "4b64cd6c458d53fc8d188c819b20f1152c499a000537ac588b8aae9dbadcb8f7",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "fixture": "cams-2024-protected.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "password": "LENSP0001A",
+  "encryption": "AES-128",
+  "pageCount": 2,
+  "bytes": 8269,
+  "sha256": "80a0e5184689e1abe71ef53694a249d60f99526df18de6b649affac295078ed2",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

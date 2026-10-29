@@ -1,0 +1,16 @@
+{
+  "goldenVersion": 1,
+  "fixture": "not-a-pdf.pdf",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  },
+  "stories": ["US-02"],
+  "edges": ["E1","E46"],
+  "notes": "PNG bytes under a .pdf name: rejected on the main thread before any worker starts.",
+  "expect": "error",
+  "error": {
+    "code": "NOT_PDF",
+    "message": "ui.error.NOT_PDF"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-parse-warnings.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 5,
+  "bytes": 17386,
+  "sha256": "374fa50de437e4e8675da6138c9d30b5cc0f5a7e36a07473da576fe251c49304",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

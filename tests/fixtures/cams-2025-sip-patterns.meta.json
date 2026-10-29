@@ -1,0 +1,12 @@
+{
+  "fixture": "cams-2025-sip-patterns.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "pageCount": 8,
+  "bytes": 27701,
+  "sha256": "f6fc2a004f41bd3e84c48e96c33fdf95d5a8063f75dfee3bc1a404b8fc3c8f65",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

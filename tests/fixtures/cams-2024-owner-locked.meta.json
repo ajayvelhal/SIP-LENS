@@ -1,0 +1,13 @@
+{
+  "fixture": "cams-2024-owner-locked.pdf",
+  "kind": "detailed",
+  "expect": "result",
+  "ownerPasswordOnly": true,
+  "pageCount": 2,
+  "bytes": 8273,
+  "sha256": "ca7998196832640071f60a5c8f9ec6eebebae7d8504e00fb61ed5458b582658a",
+  "generator": {
+    "script": "scripts/gen-fixtures.mjs",
+    "version": "1.0.0"
+  }
+}

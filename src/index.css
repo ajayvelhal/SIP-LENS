@@ -1,0 +1,207 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Colour tokens: docs/features/sip-lens-v1/03-ui-design.md §1.2. Light is the default; dark applies under
+   prefers-color-scheme when no theme is stored, and always under [data-theme="dark"]. */
+@layer base {
+  :root {
+    color-scheme: light;
+    --color-page: #f6f6f3;
+    --color-surface: #ffffff;
+    --color-sunken: #eeeeea;
+    --color-info-bg: #e8eefb;
+    --color-caution-bg: #fff3d1;
+    --color-gain-bg: #e3f4ea;
+    --color-loss-bg: #fbe5e3;
+    --color-ink-1: #15181c;
+    --color-ink-2: #444a53;
+    --color-ink-3: #5e6570;
+    --color-accent: #1f4fb3;
+    --color-accent-ink: #ffffff;
+    --color-accent-track: #c9d7f5;
+    --color-gain: #0f7a3b;
+    --color-loss: #b4261f;
+    --color-caution: #7a4e00;
+    --color-border: #c9ccc6;
+    --color-border-strong: #6f757f;
+    --color-overlay: rgba(21, 24, 28, 0.5);
+    --color-chart-equity: #2a78d6;
+    --color-chart-hybrid: #eb6834;
+    --color-chart-debt: #1baf7a;
+    --color-chart-other: #eda100;
+    --color-chart-unclassified: #8a8f98;
+    --color-chart-benchmark: #7a8089;
+    --color-chart-grid: #e1e0d9;
+    --shadow-e-1: 0 4px 16px rgba(21, 24, 28, 0.12);
+    --shadow-e-2: 0 8px 24px rgba(21, 24, 28, 0.16);
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme='light']) {
+      color-scheme: dark;
+      --color-page: #111317;
+      --color-surface: #1a1d22;
+      --color-sunken: #22262c;
+      --color-info-bg: #1c2a45;
+      --color-caution-bg: #3a2d0e;
+      --color-gain-bg: #10301f;
+      --color-loss-bg: #3b1917;
+      --color-ink-1: #f3f4f6;
+      --color-ink-2: #c2c7cf;
+      --color-ink-3: #9aa1ab;
+      --color-accent: #7fb0ff;
+      --color-accent-ink: #0b1428;
+      --color-accent-track: #2c3d63;
+      --color-gain: #4fd07f;
+      --color-loss: #ff8378;
+      --color-caution: #f1c24f;
+      --color-border: #3a3f47;
+      --color-border-strong: #8a9099;
+      --color-overlay: rgba(0, 0, 0, 0.6);
+      --color-chart-equity: #3987e5;
+      --color-chart-hybrid: #d95926;
+      --color-chart-debt: #199e70;
+      --color-chart-other: #c98500;
+      --color-chart-unclassified: #8a8f98;
+      --color-chart-benchmark: #9aa1ab;
+      --color-chart-grid: #2c2f35;
+      --shadow-e-1: 0 4px 16px rgba(0, 0, 0, 0.6);
+      --shadow-e-2: 0 8px 24px rgba(0, 0, 0, 0.7);
+    }
+  }
+
+  :root[data-theme='dark'] {
+    color-scheme: dark;
+    --color-page: #111317;
+    --color-surface: #1a1d22;
+    --color-sunken: #22262c;
+    --color-info-bg: #1c2a45;
+    --color-caution-bg: #3a2d0e;
+    --color-gain-bg: #10301f;
+    --color-loss-bg: #3b1917;
+    --color-ink-1: #f3f4f6;
+    --color-ink-2: #c2c7cf;
+    --color-ink-3: #9aa1ab;
+    --color-accent: #7fb0ff;
+    --color-accent-ink: #0b1428;
+    --color-accent-track: #2c3d63;
+    --color-gain: #4fd07f;
+    --color-loss: #ff8378;
+    --color-caution: #f1c24f;
+    --color-border: #3a3f47;
+    --color-border-strong: #8a9099;
+    --color-overlay: rgba(0, 0, 0, 0.6);
+    --color-chart-equity: #3987e5;
+    --color-chart-hybrid: #d95926;
+    --color-chart-debt: #199e70;
+    --color-chart-other: #c98500;
+    --color-chart-unclassified: #8a8f98;
+    --color-chart-benchmark: #9aa1ab;
+    --color-chart-grid: #2c2f35;
+    --shadow-e-1: 0 4px 16px rgba(0, 0, 0, 0.6);
+    --shadow-e-2: 0 8px 24px rgba(0, 0, 0, 0.7);
+  }
+
+  @media (prefers-contrast: more) {
+    :root {
+      --color-border: var(--color-border-strong);
+    }
+  }
+
+  html {
+    background: var(--color-page);
+    color: var(--color-ink-1);
+    font-variant-numeric: lining-nums;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-page text-ink-1 font-sans text-body antialiased;
+    min-height: 100vh;
+  }
+
+  /* Focus token: 2 px accent ring, 2 px offset in page; never removed. */
+  :focus-visible {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+  }
+
+  a {
+    @apply text-accent underline underline-offset-2;
+  }
+
+  button {
+    font: inherit;
+    color: inherit;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0ms !important;
+    }
+  }
+}
+
+@layer components {
+  .num {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  .clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    transform: translateX(-100%);
+    background: linear-gradient(90deg, transparent, var(--color-surface), transparent);
+    opacity: 0.6;
+    animation: shimmer 1.2s infinite;
+  }
+  @keyframes shimmer {
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+  .progress-indeterminate {
+    width: 40%;
+    animation: progress-slide 1.2s ease-in-out infinite;
+  }
+  @keyframes progress-slide {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(250%);
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .progress-indeterminate {
+      width: 100%;
+      animation: none;
+      transform: none;
+    }
+  }
+
+  .skip-link {
+    @apply sr-only;
+  }
+  .skip-link:focus {
+    @apply not-sr-only fixed left-4 top-4 z-tooltip rounded-md bg-accent px-4 py-3 text-body-strong text-accent-ink;
+  }
+}
